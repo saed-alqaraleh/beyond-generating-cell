@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the associated research article when using this software or its evaluation results."
+title: "Beyond the Generating Cell: Identifiability-Aware Set-Valued Evaluation for Text-to-Point-Cloud Localization"
+type: software
+authors:
+  - family-names: "Abdul Hafez"
+    given-names: "A. H."
+  - family-names: "Alqaraleh"
+    given-names: "Saed"
+repository-code: "https://github.com/saed-alqaraleh/beyond-generating-cell"

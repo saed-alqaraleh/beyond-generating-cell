@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+verification_report.json
+release_manifest.csv
+.env
+*.key
+*.pem
+
+# Reconstructed locally from checksum-verified repository parts
+/results/controlled_and_generator/jobs/template_analysis_primary/per_template_scores.npz
