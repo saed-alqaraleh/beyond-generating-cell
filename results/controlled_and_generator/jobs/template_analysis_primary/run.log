@@ -1,0 +1,70 @@
+[     0.0s] scene=2013_05_28_drive_0000_sync  cells=/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl
+[    17.2s]     scene cached to /content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track0/cache/scene_2013_05_28_drive_0000_sync_6c547c4418f7.npz
+[    17.4s] population: cells=2466 objects=38094 queries=564768 templates=1192
+[    21.6s] score matrix chunk complete: cells 0:50
+[    21.7s] score matrix chunk complete: cells 50:100
+[    21.8s] score matrix chunk complete: cells 100:150
+[    21.8s] score matrix chunk complete: cells 150:200
+[    21.9s] score matrix chunk complete: cells 200:250
+[    22.0s] score matrix chunk complete: cells 250:300
+[    22.1s] score matrix chunk complete: cells 300:350
+[    22.2s] score matrix chunk complete: cells 350:400
+[    22.3s] score matrix chunk complete: cells 400:450
+[    22.4s] score matrix chunk complete: cells 450:500
+[    22.5s] score matrix chunk complete: cells 500:550
+[    22.6s] score matrix chunk complete: cells 550:600
+[    22.8s] score matrix chunk complete: cells 600:650
+[    22.9s] score matrix chunk complete: cells 650:700
+[    23.0s] score matrix chunk complete: cells 700:750
+[    23.1s] score matrix chunk complete: cells 750:800
+[    23.2s] score matrix chunk complete: cells 800:850
+[    23.3s] score matrix chunk complete: cells 850:900
+[    23.4s] score matrix chunk complete: cells 900:950
+[    23.5s] score matrix chunk complete: cells 950:1000
+[    23.6s] score matrix chunk complete: cells 1000:1050
+[    23.7s] score matrix chunk complete: cells 1050:1100
+[    23.8s] score matrix chunk complete: cells 1100:1150
+[    23.9s] score matrix chunk complete: cells 1150:1200
+[    24.0s] score matrix chunk complete: cells 1200:1250
+[    24.1s] score matrix chunk complete: cells 1250:1300
+[    24.2s] score matrix chunk complete: cells 1300:1350
+[    24.2s] score matrix chunk complete: cells 1350:1400
+[    24.3s] score matrix chunk complete: cells 1400:1450
+[    24.4s] score matrix chunk complete: cells 1450:1500
+[    24.5s] score matrix chunk complete: cells 1500:1550
+[    24.6s] score matrix chunk complete: cells 1550:1600
+[    24.7s] score matrix chunk complete: cells 1600:1650
+[    24.8s] score matrix chunk complete: cells 1650:1700
+[    24.9s] score matrix chunk complete: cells 1700:1750
+[    25.0s] score matrix chunk complete: cells 1750:1800
+[    25.1s] score matrix chunk complete: cells 1800:1850
+[    25.3s] score matrix chunk complete: cells 1850:1900
+[    25.3s] score matrix chunk complete: cells 1900:1950
+[    25.5s] score matrix chunk complete: cells 1950:2000
+[    25.6s] score matrix chunk complete: cells 2000:2050
+[    25.7s] score matrix chunk complete: cells 2050:2100
+[    25.8s] score matrix chunk complete: cells 2100:2150
+[    26.0s] score matrix chunk complete: cells 2150:2200
+[    26.1s] score matrix chunk complete: cells 2200:2250
+[    26.3s] score matrix chunk complete: cells 2250:2300
+[    26.4s] score matrix chunk complete: cells 2300:2350
+[    26.5s] score matrix chunk complete: cells 2350:2400
+[    26.7s] score matrix chunk complete: cells 2400:2450
+[    26.8s] score matrix chunk complete: cells 2450:2466
+[    26.8s] integrity gate: query order, V and generating-cell validity agree exactly with core
+[    26.8s] alpha=0: template argmax/ties complete
+[    26.8s] alpha=0.1: template argmax/ties complete
+[    26.9s] alpha=0.2: template argmax/ties complete
+[    26.9s] alpha=0.3: template argmax/ties complete
+[    26.9s] alpha=0.4: template argmax/ties complete
+[    26.9s] alpha=0.5: template argmax/ties complete
+[    26.9s] alpha=0.6: template argmax/ties complete
+[    27.0s] alpha=0.7: template argmax/ties complete
+[    27.0s] alpha=0.8: template argmax/ties complete
+[    27.0s] alpha=0.85: template argmax/ties complete
+[    27.0s] alpha=0.9: template argmax/ties complete
+[    27.1s] alpha=0.95: template argmax/ties complete
+[    27.1s] alpha=0.98: template argmax/ties complete
+[    27.1s] alpha=0.99: template argmax/ties complete
+[    27.1s] alpha=1: template argmax/ties complete
+[    32.2s] DONE

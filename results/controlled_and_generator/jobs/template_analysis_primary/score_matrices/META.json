@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "scene": "2013_05_28_drive_0000_sync",
+  "n_cells": 2466,
+  "n_objects": 38094,
+  "n_templates": 1192,
+  "cells_fingerprint": {
+    "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl",
+    "n_files": 1,
+    "size_bytes": 2610480247,
+    "sha256": "6db6dd7625c9da414d9f5b852b08f8731764bce830fb85f34f29678fbd4a5f4a",
+    "method": "sha256-content-tree-v1"
+  },
+  "core_hash": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+  "executor_hash": "e88fd71d6715be20b282d5527060d5c1bfdc1574f377aad0be38f2d16c52c098"
+}
