@@ -1,0 +1,133 @@
+{
+  "config": {
+    "scene": "2013_05_28_drive_0003_sync",
+    "cells": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0003_sync.pkl",
+    "theta": 90.0,
+    "n_boot": 2000,
+    "seed": 20260808,
+    "overrides": {},
+    "cache_dir": "/content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/cache",
+    "code_version": "kpose_diagnostics/2.2.0",
+    "reference_mode": "off"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "numpy": "2.1.3",
+    "utc": "2026-08-30T22:13:36Z"
+  },
+  "reproduction_gate": {
+    "passed": true,
+    "status": "disabled",
+    "mode": "off",
+    "checks": []
+  },
+  "v_summary": {
+    "n_queries": 49128,
+    "min": 0,
+    "p5": 9.0,
+    "p25": 43.0,
+    "median": 170.0,
+    "p75": 296.0,
+    "p95": 366.0,
+    "max": 371,
+    "mean": 170.8771372740596,
+    "sd": 126.8260469397184,
+    "n_V0": 322,
+    "n_V1": 112,
+    "pct_V1": 0.22797589969060414,
+    "n_V_le_10": 2864,
+    "pct_V_le_10": 5.8296694349454485,
+    "n_V_le_50": 14274,
+    "pct_V_le_50": 29.054714215925745
+  },
+  "headline": {
+    "R_all": 0.7285865494219183,
+    "R_all_ci95": [
+      0.7190402341907186,
+      0.739376535110912
+    ],
+    "R_V1": 0.19642857142857142,
+    "n_V1": 112,
+    "naive_ceiling_E_inv_V": 0.03197230421465683,
+    "recoverable_ceiling": 0.014655593551538837,
+    "n_queries": 49128,
+    "n_cells": 447,
+    "resampling_unit": "source cell",
+    "n_bootstrap": 2000
+  },
+  "strata": [
+    {
+      "stratum": "V = 0",
+      "queries": 322,
+      "mean_V": 0.0,
+      "gt_valid_rate": 0.0,
+      "naive_ceiling": 1.0,
+      "recoverable_ceiling": 0.0
+    },
+    {
+      "stratum": "V = 1 (unique)",
+      "queries": 112,
+      "mean_V": 1.0,
+      "gt_valid_rate": 0.19642857142857142,
+      "naive_ceiling": 1.0,
+      "recoverable_ceiling": 0.19642857142857142
+    },
+    {
+      "stratum": "2-5",
+      "queries": 720,
+      "mean_V": 3.3722222222222222,
+      "gt_valid_rate": 0.41944444444444445,
+      "naive_ceiling": 0.3325925925925926,
+      "recoverable_ceiling": 0.13055555555555556
+    },
+    {
+      "stratum": "6-10",
+      "queries": 1710,
+      "mean_V": 8.235087719298246,
+      "gt_valid_rate": 0.631578947368421,
+      "naive_ceiling": 0.1253671215074724,
+      "recoverable_ceiling": 0.07953216374269007
+    },
+    {
+      "stratum": "11-50",
+      "queries": 11410,
+      "mean_V": 28.304119193689747,
+      "gt_valid_rate": 0.6666082383873795,
+      "naive_ceiling": 0.04181514737266687,
+      "recoverable_ceiling": 0.027695004382120948
+    },
+    {
+      "stratum": "51-200",
+      "queries": 13222,
+      "mean_V": 120.7856602631977,
+      "gt_valid_rate": 0.7054908485856906,
+      "naive_ceiling": 0.009872950490715345,
+      "recoverable_ceiling": 0.006958100136136742
+    },
+    {
+      "stratum": "201-500",
+      "queries": 21632,
+      "mean_V": 298.55085059171597,
+      "gt_valid_rate": 0.8069526627218935,
+      "naive_ceiling": 0.003478177427091755,
+      "recoverable_ceiling": 0.0027736686390532543
+    },
+    {
+      "stratum": "501-1000",
+      "queries": 0,
+      "mean_V": NaN,
+      "gt_valid_rate": NaN,
+      "naive_ceiling": NaN,
+      "recoverable_ceiling": NaN
+    },
+    {
+      "stratum": "> 1000",
+      "queries": 0,
+      "mean_V": NaN,
+      "gt_valid_rate": NaN,
+      "naive_ceiling": NaN,
+      "recoverable_ceiling": NaN
+    }
+  ]
+}

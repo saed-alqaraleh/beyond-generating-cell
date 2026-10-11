@@ -1,0 +1,5 @@
+method,T1,kind
+uniform_random_cell,0.00040551500405515005,analytic_chance
+uniform_within_valid_set_naive,0.0034127875439075566,analytic_ceiling
+uniform_within_valid_set_recoverable,0.0020610232874383816,corrected_analytic_ceiling
+observed_alpha_0.5,0.0021106011672049406,observed

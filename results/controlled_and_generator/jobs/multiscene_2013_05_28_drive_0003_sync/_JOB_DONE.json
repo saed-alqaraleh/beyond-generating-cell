@@ -1,0 +1,49 @@
+{
+  "job": "multiscene_2013_05_28_drive_0003_sync",
+  "track": 1,
+  "returncode": 0,
+  "status": "success",
+  "ok": true,
+  "completed": true,
+  "core_hash": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+  "executor_hash": "e88fd71d6715be20b282d5527060d5c1bfdc1574f377aad0be38f2d16c52c098",
+  "input_fingerprint": {
+    "cells": {
+      "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells",
+      "n_files": 4,
+      "size_bytes": 7773746705,
+      "sha256": "28ae56bbff5cc0fde8e0549c3820a2908c049a9ec402f22b83ebb61bb3bdf503",
+      "method": "sha256-content-tree-v1"
+    },
+    "poses": {
+      "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/poses",
+      "n_files": 1,
+      "size_bytes": 13692519,
+      "sha256": "141c5402bd261d2c1352804f838075dcc12ea795619b3a77f605751334988f41",
+      "method": "sha256-content-tree-v1"
+    }
+  },
+  "signature": "ed70a9c4fa23db541fcd7f5bcd026c6a910986bf2243eed65591634dd1401de4",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "kpose_diagnostics.cli.run_gt_validity",
+    "--cells",
+    "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0003_sync.pkl",
+    "--scene",
+    "2013_05_28_drive_0003_sync",
+    "--theta",
+    "90",
+    "--reference-mode",
+    "off",
+    "--out-dir",
+    "/content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0003_sync",
+    "--cache-dir",
+    "/content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/cache"
+  ],
+  "result": "/content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0003_sync/gt_validity_results.json",
+  "log": "/content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0003_sync/parallel.log",
+  "elapsed_s": 8.86,
+  "finished_utc": "2026-08-30T22:13:36Z"
+}

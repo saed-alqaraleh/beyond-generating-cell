@@ -1,0 +1,20 @@
+{
+  "stage": "load",
+  "config_hash": "c1d4040065a4",
+  "config": {
+    "scene": "2013_05_28_drive_0004_sync",
+    "cells": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0004_sync.pkl",
+    "theta": 90.0,
+    "n_boot": 2000,
+    "seed": 20260808,
+    "overrides": {},
+    "cache_dir": "/content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/cache",
+    "code_version": "kpose_diagnostics/2.2.0",
+    "reference_mode": "off"
+  },
+  "outputs": [
+    "/content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0004_sync/load/scene_summary.json"
+  ],
+  "elapsed_s": 31.03,
+  "finished_utc": "2026-08-30T22:14:07Z"
+}

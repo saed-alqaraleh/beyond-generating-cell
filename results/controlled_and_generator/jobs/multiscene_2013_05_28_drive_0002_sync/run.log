@@ -1,0 +1,68 @@
+[    0.0s] ========================================================================
+[    0.0s] BLOCKER B1 -- generating-cell validity
+[    0.0s] ========================================================================
+[    0.0s] scene      : 2013_05_28_drive_0002_sync
+[    0.0s] cells      : /content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0002_sync.pkl
+[    0.0s] theta      : 90.0 deg
+[    0.0s] out-dir    : /content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0002_sync
+[    0.0s] environment: {'python': '3.13.15', 'platform': 'Linux-6.6.122+-x86_64-with-glibc2.35', 'numpy': '2.1.3', 'utc': '2026-08-30T22:12:25Z'}
+[    0.1s] git        : not-a-git-repo
+[    0.1s] 
+[    0.1s] stage load: starting
+[   50.6s]     scene cached to /content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/cache/scene_2013_05_28_drive_0002_sync_fbb95973ad34.npz
+[   50.6s]     cells   : 2935
+[   50.6s]     objects : 42802
+[   50.6s]     labels  : 15
+[   50.6s]     stubbed classes (harmless): ['datapreparation.kitti360.imports.Cell', 'datapreparation.kitti360.imports.Object3d']
+[   50.6s]     resolved fields: {'cell_objects': 'objects', 'cell_id': 'id', 'obj_label': 'label', 'obj_xyz': 'xyz', 'obj_id': 'id', 'obj_color': 'rgb', 'cell_bbox': 'bbox_w', 'cell_center': '<center of bbox_w>'}
+[   50.7s] stage load: complete in 50.56s
+[   50.7s] 
+[   50.7s] computing valid sets, query population and generating-cell validity
+[   50.7s] (one pass over cells; all three quantities come from the same pass)
+[   51.2s]     pass 1: 250/2935 cells
+[   51.5s]     pass 1: 500/2935 cells
+[   51.9s]     pass 1: 750/2935 cells
+[   52.2s]     pass 1: 1000/2935 cells
+[   52.7s]     pass 1: 1250/2935 cells
+[   53.0s]     pass 1: 1500/2935 cells
+[   53.3s]     pass 1: 1750/2935 cells
+[   53.8s]     pass 1: 2000/2935 cells
+[   54.1s]     pass 1: 2250/2935 cells
+[   54.5s]     pass 1: 2500/2935 cells
+[   55.0s]     pass 1: 2750/2935 cells
+[   55.9s]     queries           : 700,040
+[   55.9s]     templates realised: 840
+[   55.9s] 
+[   55.9s] ------------------------------------------------------------------------
+[   55.9s] REPRODUCTION GATE
+[   55.9s] ------------------------------------------------------------------------
+[   55.9s] reference comparison not applied for theta=90 (mode=off)
+[   55.9s] 
+[   55.9s] ------------------------------------------------------------------------
+[   55.9s] MEASUREMENT
+[   55.9s] ------------------------------------------------------------------------
+[   61.2s]   R   (all queries)            : 0.718022  [0.714421, 0.721654]   <- clustered by source cell
+[   61.2s]   R_1 (V = 1 stratum, n=0)    : nan
+[   61.2s]   naive ceiling E[1/V]         : 0.001795
+[   61.2s]   recoverable ceiling          : 0.001200
+[   61.2s]   naive / recoverable          : 1.50x  <- factor by which E[1/V] overstates the bound
+[   61.2s] 
+[   61.2s]   PREDICTION UNDER TEST: if the manuscript's 0.125 on the V = 1
+[   61.2s]   stratum is explained by generating-cell validity rather than by
+[   61.2s]   scoring, then R_1 should be close to 6/48 = 0.125.
+[   61.2s] 
+[   61.2s]   stratum            queries    mean V         R      E[1/V]   recoverable
+[   61.2s]   11-50                  760      43.0    0.4526      0.0233        0.0105
+[   61.2s]   51-200              36,700     139.0    0.6266      0.0081        0.0050
+[   61.2s]   201-500            145,320     350.6    0.6570      0.0030        0.0020
+[   61.2s]   501-1000           181,686     728.7    0.6767      0.0014        0.0010
+[   61.2s]   > 1000             335,574    1529.1    0.7774      0.0007        0.0005
+[   61.8s] 
+[   61.8s] wrote:
+[   61.8s]   /content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0002_sync/gt_validity_results.json
+[   61.8s]   /content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0002_sync/per_query.npz
+[   61.8s]   /content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0002_sync/strata.csv
+[   61.8s]   /content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0002_sync/template_v.csv
+[   61.8s]   /content/drive/MyDrive/or_fusion_verification/article_evidence_v220/tracks/track1/jobs/multiscene_2013_05_28_drive_0002_sync/run.log
+[   61.8s] 
+[   61.8s] DONE. Send gt_validity_results.json and run.log.
