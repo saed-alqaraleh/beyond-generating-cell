@@ -1,0 +1,18 @@
+{
+  "assertion": "null_contains_source[i,r] == source_supported[i] for every primary query and retained realization",
+  "candidate_column_degree_mismatches": 0,
+  "candidate_column_degrees": "exactly preserved within each scene by constrained bipartite switches",
+  "conservative_lower_bound_violations": 0,
+  "expected_source_membership_query_repetition_checks": 4794000,
+  "per_query_scene_cardinalities": "exactly preserved",
+  "primary_query_count": 4794,
+  "retained_repetitions": 1000,
+  "row_scene_degree_mismatches": 0,
+  "source_membership_mismatches": 0,
+  "source_membership_query_repetition_checks": 4794000,
+  "source_supported_monotonic_violations": 0,
+  "source_supported_query_count": 3780,
+  "source_unsupported_query_count": 1014,
+  "status": "PASS",
+  "total_cardinality_mismatches": 0
+}

@@ -1,0 +1,14 @@
+{
+  "all_conservative_lower_bounds_pass": true,
+  "all_six_simultaneous_intervals_exclude_zero": true,
+  "all_source_membership_invariants_pass": true,
+  "bootstrap_replicates": 10000,
+  "config_hash": "5b15d8b372a3f5842be7d1a2fbab1f8f86cd0976f872e80b27135e28ca9902e5",
+  "input_hash": "c26f00c7d23917ca589c867a93f86fad71163df5b6c7ad4045ff8d952826bcbf",
+  "legacy_analysis_role": "secondary only",
+  "null_repetitions": 1000,
+  "primary_analysis": "source-membership-matched constrained degree-preserving null",
+  "primary_query_count": 4794,
+  "source_supported_primary_count": 3780,
+  "status": "PASS"
+}

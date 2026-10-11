@@ -1,0 +1,10 @@
+{
+  "candidate_universe_sha256": "df64a26bff45406e2fd4cfbcfb5b3e54691dfb6acac9bce7ed231014e13d9eb1",
+  "evidence_sha256": "961934e5031459785663185c80dafd453451565bdd55c19d59de6930536446ac",
+  "legacy_null_zip_sha256": null,
+  "ranking_hashes": {
+    "text2loc": "20c4c667618f8f8dcb48b4458174bb6c7c660a9ab8ed1bf39f65d3ef4ba3fce3",
+    "text2pos": "7d6cf45a44d89cb1a21c79aa79b09b24bba7d695fa7fb9c6f8e52bda477ff0fc"
+  },
+  "valid_color_sha256": "fb062c7b743a39a368552ea85be6cbfecfa83136201fe9948b3af136f9561234"
+}

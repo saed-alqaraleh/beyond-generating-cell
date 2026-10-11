@@ -1,0 +1,151 @@
+{
+  "checks": [
+    {
+      "check": "query_count_11505",
+      "detail": 11505,
+      "pass": true
+    },
+    {
+      "check": "candidate_count_4308",
+      "detail": 4308,
+      "pass": true
+    },
+    {
+      "check": "query_ids_unique",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "model_rows_23010",
+      "detail": 23010,
+      "pass": true
+    },
+    {
+      "check": "pairs_color",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pairs_no_color",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no_unsupported_queries",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "restart_test",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "text2pos_six_count_lock",
+      "detail": {
+        "expected": {
+          "1": 1372,
+          "5": 3676,
+          "10": 4901
+        },
+        "observed": {
+          "1": 1372,
+          "5": 3676,
+          "10": 4901
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "text2loc_six_count_lock",
+      "detail": {
+        "expected": {
+          "1": 3428,
+          "5": 6917,
+          "10": 8206
+        },
+        "observed": {
+          "1": 3428,
+          "5": 6917,
+          "10": 8206
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "valid_primary_shape",
+      "detail": [
+        11505,
+        4308
+      ],
+      "pass": true
+    },
+    {
+      "check": "valid_no_color_shape",
+      "detail": [
+        11505,
+        4308
+      ],
+      "pass": true
+    },
+    {
+      "check": "query_model_unique",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::FIG_metric_disagreement.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::FIG_source_vs_semantic_by_V.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::FIG_valid_set_distribution.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::TABLE_ambiguity_strata.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::TABLE_bootstrap_intervals.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::TABLE_identifiability_bound.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::TABLE_metric_disagreement.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::TABLE_overall_metrics.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::TABLE_scene_robustness.csv",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "finite_csv::TABLE_valid_set_distribution.csv",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "code_hash": "a5b4581bc1e648dac40a61d50fd2d41bce95b7524d6e52aad92df94525cfae5f",
+  "config_hash": "4c1794be64d2fc86a3cbbbcec8f1678f84f97916f91e465fe19a09c540a2de16",
+  "input_manifest_hash": "31c8cd74901a8ba5c8168a60d5e3adfa5b45d01b921bd0bcb124d9ae56055e60",
+  "status": "PASS"
+}

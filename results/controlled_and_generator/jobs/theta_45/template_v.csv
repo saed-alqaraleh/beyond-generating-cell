@@ -1,0 +1,1127 @@
+template,V
+box|east|building,170
+box|east|fence,137
+box|east|garage,89
+box|east|lamp,43
+box|east|parking,90
+box|east|pole,120
+box|east|road,126
+box|east|sidewalk,178
+box|east|smallpole,38
+box|east|terrain,158
+box|east|traffic light,16
+box|east|traffic sign,37
+box|east|trash bin,85
+box|east|vegetation,286
+box|east|wall,133
+box|north|building,210
+box|north|fence,121
+box|north|garage,67
+box|north|lamp,26
+box|north|parking,96
+box|north|pole,140
+box|north|road,141
+box|north|sidewalk,203
+box|north|smallpole,23
+box|north|terrain,186
+box|north|traffic light,14
+box|north|traffic sign,65
+box|north|trash bin,53
+box|north|vegetation,277
+box|north|vending machine,2
+box|north|wall,162
+box|south|building,186
+box|south|fence,147
+box|south|garage,48
+box|south|lamp,37
+box|south|parking,126
+box|south|pole,125
+box|south|road,131
+box|south|sidewalk,183
+box|south|smallpole,33
+box|south|terrain,147
+box|south|traffic light,4
+box|south|traffic sign,31
+box|south|trash bin,67
+box|south|vegetation,308
+box|south|vending machine,11
+box|south|wall,160
+box|west|building,186
+box|west|fence,138
+box|west|garage,59
+box|west|lamp,50
+box|west|parking,76
+box|west|pole,123
+box|west|road,120
+box|west|sidewalk,178
+box|west|smallpole,39
+box|west|stop,4
+box|west|terrain,154
+box|west|traffic light,6
+box|west|traffic sign,71
+box|west|trash bin,33
+box|west|vegetation,239
+box|west|wall,128
+building|east|box,186
+building|east|fence,689
+building|east|garage,459
+building|east|lamp,171
+building|east|parking,405
+building|east|pole,454
+building|east|road,847
+building|east|sidewalk,970
+building|east|smallpole,49
+building|east|terrain,567
+building|east|traffic light,1
+building|east|traffic sign,121
+building|east|trash bin,197
+building|east|vegetation,1131
+building|east|vending machine,17
+building|east|wall,712
+building|north|box,186
+building|north|fence,686
+building|north|garage,431
+building|north|lamp,200
+building|north|parking,594
+building|north|pole,486
+building|north|road,810
+building|north|sidewalk,1018
+building|north|smallpole,69
+building|north|stop,8
+building|north|terrain,596
+building|north|traffic light,16
+building|north|traffic sign,145
+building|north|trash bin,280
+building|north|vegetation,1196
+building|north|vending machine,25
+building|north|wall,774
+building|south|box,210
+building|south|fence,712
+building|south|garage,435
+building|south|lamp,206
+building|south|parking,593
+building|south|pole,530
+building|south|road,900
+building|south|sidewalk,1077
+building|south|smallpole,63
+building|south|terrain,576
+building|south|traffic light,10
+building|south|traffic sign,162
+building|south|trash bin,275
+building|south|vegetation,1262
+building|south|vending machine,9
+building|south|wall,826
+building|west|box,170
+building|west|fence,675
+building|west|garage,409
+building|west|lamp,209
+building|west|parking,400
+building|west|pole,567
+building|west|road,981
+building|west|sidewalk,1075
+building|west|smallpole,75
+building|west|stop,1
+building|west|terrain,583
+building|west|traffic light,20
+building|west|traffic sign,180
+building|west|trash bin,190
+building|west|vegetation,1191
+building|west|vending machine,19
+building|west|wall,749
+fence|east|box,138
+fence|east|building,675
+fence|east|garage,258
+fence|east|lamp,163
+fence|east|parking,356
+fence|east|pole,391
+fence|east|road,545
+fence|east|sidewalk,612
+fence|east|smallpole,39
+fence|east|terrain,518
+fence|east|traffic light,7
+fence|east|traffic sign,111
+fence|east|trash bin,201
+fence|east|vegetation,900
+fence|east|vending machine,8
+fence|east|wall,521
+fence|north|box,147
+fence|north|building,712
+fence|north|garage,277
+fence|north|lamp,152
+fence|north|parking,396
+fence|north|pole,416
+fence|north|road,495
+fence|north|sidewalk,638
+fence|north|smallpole,56
+fence|north|stop,9
+fence|north|terrain,498
+fence|north|traffic light,5
+fence|north|traffic sign,131
+fence|north|trash bin,154
+fence|north|vegetation,928
+fence|north|vending machine,26
+fence|north|wall,625
+fence|south|box,121
+fence|south|building,686
+fence|south|garage,246
+fence|south|lamp,151
+fence|south|parking,419
+fence|south|pole,453
+fence|south|road,527
+fence|south|sidewalk,687
+fence|south|smallpole,66
+fence|south|stop,9
+fence|south|terrain,510
+fence|south|traffic light,15
+fence|south|traffic sign,140
+fence|south|trash bin,142
+fence|south|vegetation,897
+fence|south|vending machine,17
+fence|south|wall,670
+fence|west|box,137
+fence|west|building,689
+fence|west|garage,327
+fence|west|lamp,141
+fence|west|parking,351
+fence|west|pole,323
+fence|west|road,472
+fence|west|sidewalk,613
+fence|west|smallpole,40
+fence|west|stop,3
+fence|west|terrain,495
+fence|west|traffic light,9
+fence|west|traffic sign,120
+fence|west|trash bin,171
+fence|west|vegetation,823
+fence|west|vending machine,10
+fence|west|wall,493
+garage|east|box,59
+garage|east|building,409
+garage|east|fence,327
+garage|east|lamp,59
+garage|east|parking,228
+garage|east|pole,165
+garage|east|road,234
+garage|east|sidewalk,283
+garage|east|smallpole,26
+garage|east|terrain,237
+garage|east|traffic light,4
+garage|east|traffic sign,30
+garage|east|trash bin,88
+garage|east|vegetation,455
+garage|east|vending machine,7
+garage|east|wall,301
+garage|north|box,48
+garage|north|building,435
+garage|north|fence,246
+garage|north|lamp,39
+garage|north|parking,220
+garage|north|pole,126
+garage|north|road,202
+garage|north|sidewalk,246
+garage|north|smallpole,17
+garage|north|terrain,199
+garage|north|traffic light,2
+garage|north|traffic sign,52
+garage|north|trash bin,58
+garage|north|vegetation,450
+garage|north|wall,285
+garage|south|box,67
+garage|south|building,431
+garage|south|fence,277
+garage|south|lamp,67
+garage|south|parking,239
+garage|south|pole,194
+garage|south|road,268
+garage|south|sidewalk,284
+garage|south|smallpole,19
+garage|south|terrain,231
+garage|south|traffic light,2
+garage|south|traffic sign,42
+garage|south|trash bin,108
+garage|south|vegetation,532
+garage|south|vending machine,2
+garage|south|wall,296
+garage|west|box,89
+garage|west|building,459
+garage|west|fence,258
+garage|west|lamp,93
+garage|west|parking,284
+garage|west|pole,221
+garage|west|road,257
+garage|west|sidewalk,345
+garage|west|smallpole,24
+garage|west|terrain,236
+garage|west|traffic light,2
+garage|west|traffic sign,48
+garage|west|trash bin,111
+garage|west|vegetation,514
+garage|west|vending machine,9
+garage|west|wall,338
+lamp|east|box,50
+lamp|east|building,209
+lamp|east|fence,141
+lamp|east|garage,93
+lamp|east|parking,73
+lamp|east|pole,259
+lamp|east|road,96
+lamp|east|sidewalk,141
+lamp|east|smallpole,31
+lamp|east|terrain,179
+lamp|east|traffic light,15
+lamp|east|traffic sign,52
+lamp|east|trash bin,32
+lamp|east|vegetation,270
+lamp|east|vending machine,6
+lamp|east|wall,105
+lamp|north|box,37
+lamp|north|building,206
+lamp|north|fence,151
+lamp|north|garage,67
+lamp|north|parking,79
+lamp|north|pole,152
+lamp|north|road,104
+lamp|north|sidewalk,192
+lamp|north|smallpole,20
+lamp|north|terrain,185
+lamp|north|traffic light,6
+lamp|north|traffic sign,50
+lamp|north|trash bin,27
+lamp|north|vegetation,299
+lamp|north|wall,180
+lamp|south|box,26
+lamp|south|building,200
+lamp|south|fence,152
+lamp|south|garage,39
+lamp|south|parking,91
+lamp|south|pole,146
+lamp|south|road,152
+lamp|south|sidewalk,194
+lamp|south|smallpole,21
+lamp|south|stop,3
+lamp|south|terrain,162
+lamp|south|traffic light,6
+lamp|south|traffic sign,53
+lamp|south|trash bin,33
+lamp|south|vegetation,279
+lamp|south|vending machine,3
+lamp|south|wall,168
+lamp|west|box,43
+lamp|west|building,171
+lamp|west|fence,163
+lamp|west|garage,59
+lamp|west|parking,109
+lamp|west|pole,161
+lamp|west|road,157
+lamp|west|sidewalk,205
+lamp|west|smallpole,51
+lamp|west|terrain,184
+lamp|west|traffic light,10
+lamp|west|traffic sign,80
+lamp|west|trash bin,35
+lamp|west|vegetation,274
+lamp|west|vending machine,12
+lamp|west|wall,171
+parking|east|box,76
+parking|east|building,400
+parking|east|fence,351
+parking|east|garage,284
+parking|east|lamp,109
+parking|east|pole,279
+parking|east|road,431
+parking|east|sidewalk,415
+parking|east|smallpole,49
+parking|east|terrain,403
+parking|east|traffic light,10
+parking|east|traffic sign,82
+parking|east|trash bin,146
+parking|east|vegetation,668
+parking|east|vending machine,7
+parking|east|wall,428
+parking|north|box,126
+parking|north|building,593
+parking|north|fence,419
+parking|north|garage,239
+parking|north|lamp,91
+parking|north|pole,309
+parking|north|road,351
+parking|north|sidewalk,377
+parking|north|smallpole,61
+parking|north|stop,9
+parking|north|terrain,453
+parking|north|traffic light,6
+parking|north|traffic sign,95
+parking|north|trash bin,131
+parking|north|vegetation,706
+parking|north|vending machine,3
+parking|north|wall,411
+parking|south|box,96
+parking|south|building,594
+parking|south|fence,396
+parking|south|garage,220
+parking|south|lamp,79
+parking|south|pole,343
+parking|south|road,333
+parking|south|sidewalk,472
+parking|south|smallpole,51
+parking|south|terrain,462
+parking|south|traffic light,22
+parking|south|traffic sign,95
+parking|south|trash bin,107
+parking|south|vegetation,772
+parking|south|vending machine,11
+parking|south|wall,406
+parking|west|box,90
+parking|west|building,405
+parking|west|fence,356
+parking|west|garage,228
+parking|west|lamp,73
+parking|west|pole,310
+parking|west|road,381
+parking|west|sidewalk,486
+parking|west|smallpole,50
+parking|west|terrain,352
+parking|west|traffic light,12
+parking|west|traffic sign,107
+parking|west|trash bin,141
+parking|west|vegetation,699
+parking|west|vending machine,12
+parking|west|wall,386
+pole|east|box,123
+pole|east|building,567
+pole|east|fence,323
+pole|east|garage,221
+pole|east|lamp,161
+pole|east|parking,310
+pole|east|road,456
+pole|east|sidewalk,548
+pole|east|smallpole,105
+pole|east|stop,11
+pole|east|terrain,505
+pole|east|traffic light,66
+pole|east|traffic sign,269
+pole|east|trash bin,95
+pole|east|vegetation,855
+pole|east|vending machine,20
+pole|east|wall,393
+pole|north|box,125
+pole|north|building,530
+pole|north|fence,453
+pole|north|garage,194
+pole|north|lamp,146
+pole|north|parking,343
+pole|north|road,470
+pole|north|sidewalk,597
+pole|north|smallpole,95
+pole|north|stop,2
+pole|north|terrain,528
+pole|north|traffic light,53
+pole|north|traffic sign,306
+pole|north|trash bin,96
+pole|north|vegetation,874
+pole|north|vending machine,6
+pole|north|wall,529
+pole|south|box,140
+pole|south|building,486
+pole|south|fence,416
+pole|south|garage,126
+pole|south|lamp,152
+pole|south|parking,309
+pole|south|road,516
+pole|south|sidewalk,644
+pole|south|smallpole,133
+pole|south|stop,9
+pole|south|terrain,506
+pole|south|traffic light,48
+pole|south|traffic sign,285
+pole|south|trash bin,131
+pole|south|vegetation,863
+pole|south|vending machine,18
+pole|south|wall,440
+pole|west|box,120
+pole|west|building,454
+pole|west|fence,391
+pole|west|garage,165
+pole|west|lamp,259
+pole|west|parking,279
+pole|west|road,513
+pole|west|sidewalk,641
+pole|west|smallpole,107
+pole|west|stop,2
+pole|west|terrain,564
+pole|west|traffic light,48
+pole|west|traffic sign,296
+pole|west|trash bin,103
+pole|west|vegetation,852
+pole|west|vending machine,17
+pole|west|wall,436
+road|east|box,120
+road|east|building,981
+road|east|fence,472
+road|east|garage,257
+road|east|lamp,157
+road|east|parking,381
+road|east|pole,513
+road|east|sidewalk,884
+road|east|smallpole,82
+road|east|stop,4
+road|east|terrain,524
+road|east|traffic light,24
+road|east|traffic sign,184
+road|east|trash bin,153
+road|east|vegetation,1113
+road|east|vending machine,12
+road|east|wall,577
+road|north|box,131
+road|north|building,900
+road|north|fence,527
+road|north|garage,268
+road|north|lamp,152
+road|north|parking,333
+road|north|pole,516
+road|north|sidewalk,936
+road|north|smallpole,82
+road|north|stop,6
+road|north|terrain,541
+road|north|traffic light,26
+road|north|traffic sign,181
+road|north|trash bin,134
+road|north|vegetation,1134
+road|north|vending machine,8
+road|north|wall,602
+road|south|box,141
+road|south|building,810
+road|south|fence,495
+road|south|garage,202
+road|south|lamp,104
+road|south|parking,351
+road|south|pole,470
+road|south|sidewalk,857
+road|south|smallpole,92
+road|south|stop,5
+road|south|terrain,640
+road|south|traffic light,27
+road|south|traffic sign,201
+road|south|trash bin,129
+road|south|vegetation,1134
+road|south|vending machine,16
+road|south|wall,523
+road|west|box,126
+road|west|building,847
+road|west|fence,545
+road|west|garage,234
+road|west|lamp,96
+road|west|parking,431
+road|west|pole,456
+road|west|sidewalk,892
+road|west|smallpole,104
+road|west|stop,5
+road|west|terrain,631
+road|west|traffic light,32
+road|west|traffic sign,198
+road|west|trash bin,111
+road|west|vegetation,1118
+road|west|vending machine,17
+road|west|wall,562
+sidewalk|east|box,178
+sidewalk|east|building,1075
+sidewalk|east|fence,613
+sidewalk|east|garage,345
+sidewalk|east|lamp,205
+sidewalk|east|parking,486
+sidewalk|east|pole,641
+sidewalk|east|road,892
+sidewalk|east|smallpole,124
+sidewalk|east|stop,6
+sidewalk|east|terrain,686
+sidewalk|east|traffic light,31
+sidewalk|east|traffic sign,232
+sidewalk|east|trash bin,223
+sidewalk|east|vegetation,1350
+sidewalk|east|vending machine,14
+sidewalk|east|wall,733
+sidewalk|north|box,183
+sidewalk|north|building,1077
+sidewalk|north|fence,687
+sidewalk|north|garage,284
+sidewalk|north|lamp,194
+sidewalk|north|parking,472
+sidewalk|north|pole,644
+sidewalk|north|road,857
+sidewalk|north|smallpole,118
+sidewalk|north|stop,7
+sidewalk|north|terrain,755
+sidewalk|north|traffic light,33
+sidewalk|north|traffic sign,247
+sidewalk|north|trash bin,167
+sidewalk|north|vegetation,1394
+sidewalk|north|vending machine,18
+sidewalk|north|wall,782
+sidewalk|south|box,203
+sidewalk|south|building,1018
+sidewalk|south|fence,638
+sidewalk|south|garage,246
+sidewalk|south|lamp,192
+sidewalk|south|parking,377
+sidewalk|south|pole,597
+sidewalk|south|road,936
+sidewalk|south|smallpole,134
+sidewalk|south|stop,3
+sidewalk|south|terrain,712
+sidewalk|south|traffic light,35
+sidewalk|south|traffic sign,264
+sidewalk|south|trash bin,181
+sidewalk|south|vegetation,1305
+sidewalk|south|vending machine,25
+sidewalk|south|wall,725
+sidewalk|west|box,178
+sidewalk|west|building,970
+sidewalk|west|fence,612
+sidewalk|west|garage,283
+sidewalk|west|lamp,141
+sidewalk|west|parking,415
+sidewalk|west|pole,548
+sidewalk|west|road,884
+sidewalk|west|smallpole,115
+sidewalk|west|stop,3
+sidewalk|west|terrain,697
+sidewalk|west|traffic light,28
+sidewalk|west|traffic sign,255
+sidewalk|west|trash bin,160
+sidewalk|west|vegetation,1248
+sidewalk|west|vending machine,19
+sidewalk|west|wall,670
+smallpole|east|box,39
+smallpole|east|building,75
+smallpole|east|fence,40
+smallpole|east|garage,24
+smallpole|east|lamp,51
+smallpole|east|parking,50
+smallpole|east|pole,107
+smallpole|east|road,104
+smallpole|east|sidewalk,115
+smallpole|east|terrain,108
+smallpole|east|traffic light,3
+smallpole|east|traffic sign,65
+smallpole|east|trash bin,29
+smallpole|east|vegetation,164
+smallpole|east|vending machine,1
+smallpole|east|wall,47
+smallpole|north|box,33
+smallpole|north|building,63
+smallpole|north|fence,66
+smallpole|north|garage,19
+smallpole|north|lamp,21
+smallpole|north|parking,51
+smallpole|north|pole,133
+smallpole|north|road,92
+smallpole|north|sidewalk,134
+smallpole|north|terrain,165
+smallpole|north|traffic light,29
+smallpole|north|traffic sign,101
+smallpole|north|trash bin,30
+smallpole|north|vegetation,159
+smallpole|north|wall,60
+smallpole|south|box,23
+smallpole|south|building,69
+smallpole|south|fence,56
+smallpole|south|garage,17
+smallpole|south|lamp,20
+smallpole|south|parking,61
+smallpole|south|pole,95
+smallpole|south|road,82
+smallpole|south|sidewalk,118
+smallpole|south|terrain,123
+smallpole|south|traffic light,6
+smallpole|south|traffic sign,67
+smallpole|south|trash bin,20
+smallpole|south|vegetation,149
+smallpole|south|vending machine,4
+smallpole|south|wall,57
+smallpole|west|box,38
+smallpole|west|building,49
+smallpole|west|fence,39
+smallpole|west|garage,26
+smallpole|west|lamp,31
+smallpole|west|parking,49
+smallpole|west|pole,105
+smallpole|west|road,82
+smallpole|west|sidewalk,124
+smallpole|west|terrain,112
+smallpole|west|traffic light,15
+smallpole|west|traffic sign,71
+smallpole|west|trash bin,11
+smallpole|west|vegetation,137
+smallpole|west|vending machine,2
+smallpole|west|wall,46
+stop|east|box,4
+stop|east|building,1
+stop|east|fence,3
+stop|east|pole,2
+stop|east|road,5
+stop|east|sidewalk,3
+stop|east|terrain,2
+stop|east|traffic sign,2
+stop|east|vegetation,4
+stop|north|fence,9
+stop|north|lamp,3
+stop|north|pole,9
+stop|north|road,5
+stop|north|sidewalk,3
+stop|north|terrain,2
+stop|north|traffic light,3
+stop|north|traffic sign,9
+stop|north|vegetation,5
+stop|south|building,8
+stop|south|fence,9
+stop|south|parking,9
+stop|south|pole,2
+stop|south|road,6
+stop|south|sidewalk,7
+stop|south|terrain,3
+stop|south|traffic sign,2
+stop|south|vegetation,3
+stop|south|wall,3
+stop|west|pole,11
+stop|west|road,4
+stop|west|sidewalk,6
+stop|west|traffic sign,11
+stop|west|trash bin,6
+stop|west|vegetation,8
+terrain|east|box,154
+terrain|east|building,583
+terrain|east|fence,495
+terrain|east|garage,236
+terrain|east|lamp,184
+terrain|east|parking,352
+terrain|east|pole,564
+terrain|east|road,631
+terrain|east|sidewalk,697
+terrain|east|smallpole,112
+terrain|east|traffic light,34
+terrain|east|traffic sign,205
+terrain|east|trash bin,130
+terrain|east|vegetation,1023
+terrain|east|vending machine,22
+terrain|east|wall,470
+terrain|north|box,147
+terrain|north|building,576
+terrain|north|fence,510
+terrain|north|garage,231
+terrain|north|lamp,162
+terrain|north|parking,462
+terrain|north|pole,506
+terrain|north|road,640
+terrain|north|sidewalk,712
+terrain|north|smallpole,123
+terrain|north|stop,3
+terrain|north|traffic light,32
+terrain|north|traffic sign,206
+terrain|north|trash bin,147
+terrain|north|vegetation,1069
+terrain|north|vending machine,14
+terrain|north|wall,547
+terrain|south|box,186
+terrain|south|building,596
+terrain|south|fence,498
+terrain|south|garage,199
+terrain|south|lamp,185
+terrain|south|parking,453
+terrain|south|pole,528
+terrain|south|road,541
+terrain|south|sidewalk,755
+terrain|south|smallpole,165
+terrain|south|stop,2
+terrain|south|traffic light,25
+terrain|south|traffic sign,196
+terrain|south|trash bin,155
+terrain|south|vegetation,1139
+terrain|south|vending machine,12
+terrain|south|wall,532
+terrain|west|box,158
+terrain|west|building,567
+terrain|west|fence,518
+terrain|west|garage,237
+terrain|west|lamp,179
+terrain|west|parking,403
+terrain|west|pole,505
+terrain|west|road,524
+terrain|west|sidewalk,686
+terrain|west|smallpole,108
+terrain|west|stop,2
+terrain|west|traffic light,22
+terrain|west|traffic sign,144
+terrain|west|trash bin,148
+terrain|west|vegetation,1046
+terrain|west|vending machine,11
+terrain|west|wall,501
+traffic light|east|box,6
+traffic light|east|building,20
+traffic light|east|fence,9
+traffic light|east|garage,2
+traffic light|east|lamp,10
+traffic light|east|parking,12
+traffic light|east|pole,48
+traffic light|east|road,32
+traffic light|east|sidewalk,28
+traffic light|east|smallpole,15
+traffic light|east|terrain,22
+traffic light|east|traffic sign,43
+traffic light|east|vegetation,32
+traffic light|east|wall,8
+traffic light|north|box,4
+traffic light|north|building,10
+traffic light|north|fence,15
+traffic light|north|garage,2
+traffic light|north|lamp,6
+traffic light|north|parking,22
+traffic light|north|pole,48
+traffic light|north|road,27
+traffic light|north|sidewalk,35
+traffic light|north|smallpole,6
+traffic light|north|terrain,25
+traffic light|north|traffic sign,43
+traffic light|north|trash bin,2
+traffic light|north|vegetation,28
+traffic light|north|wall,11
+traffic light|south|box,14
+traffic light|south|building,16
+traffic light|south|fence,5
+traffic light|south|garage,2
+traffic light|south|lamp,6
+traffic light|south|parking,6
+traffic light|south|pole,53
+traffic light|south|road,26
+traffic light|south|sidewalk,33
+traffic light|south|smallpole,29
+traffic light|south|stop,3
+traffic light|south|terrain,32
+traffic light|south|traffic sign,36
+traffic light|south|trash bin,2
+traffic light|south|vegetation,24
+traffic light|south|wall,11
+traffic light|west|box,16
+traffic light|west|building,1
+traffic light|west|fence,7
+traffic light|west|garage,4
+traffic light|west|lamp,15
+traffic light|west|parking,10
+traffic light|west|pole,66
+traffic light|west|road,24
+traffic light|west|sidewalk,31
+traffic light|west|smallpole,3
+traffic light|west|terrain,34
+traffic light|west|traffic sign,51
+traffic light|west|vegetation,33
+traffic light|west|wall,20
+traffic sign|east|box,71
+traffic sign|east|building,180
+traffic sign|east|fence,120
+traffic sign|east|garage,48
+traffic sign|east|lamp,80
+traffic sign|east|parking,107
+traffic sign|east|pole,296
+traffic sign|east|road,198
+traffic sign|east|sidewalk,255
+traffic sign|east|smallpole,71
+traffic sign|east|stop,11
+traffic sign|east|terrain,144
+traffic sign|east|traffic light,51
+traffic sign|east|trash bin,8
+traffic sign|east|vegetation,283
+traffic sign|east|wall,95
+traffic sign|north|box,31
+traffic sign|north|building,162
+traffic sign|north|fence,140
+traffic sign|north|garage,42
+traffic sign|north|lamp,53
+traffic sign|north|parking,95
+traffic sign|north|pole,285
+traffic sign|north|road,201
+traffic sign|north|sidewalk,264
+traffic sign|north|smallpole,67
+traffic sign|north|stop,2
+traffic sign|north|terrain,196
+traffic sign|north|traffic light,36
+traffic sign|north|trash bin,26
+traffic sign|north|vegetation,290
+traffic sign|north|vending machine,4
+traffic sign|north|wall,157
+traffic sign|south|box,65
+traffic sign|south|building,145
+traffic sign|south|fence,131
+traffic sign|south|garage,52
+traffic sign|south|lamp,50
+traffic sign|south|parking,95
+traffic sign|south|pole,306
+traffic sign|south|road,181
+traffic sign|south|sidewalk,247
+traffic sign|south|smallpole,101
+traffic sign|south|stop,9
+traffic sign|south|terrain,206
+traffic sign|south|traffic light,43
+traffic sign|south|trash bin,28
+traffic sign|south|vegetation,272
+traffic sign|south|vending machine,10
+traffic sign|south|wall,85
+traffic sign|west|box,37
+traffic sign|west|building,121
+traffic sign|west|fence,111
+traffic sign|west|garage,30
+traffic sign|west|lamp,52
+traffic sign|west|parking,82
+traffic sign|west|pole,269
+traffic sign|west|road,184
+traffic sign|west|sidewalk,232
+traffic sign|west|smallpole,65
+traffic sign|west|stop,2
+traffic sign|west|terrain,205
+traffic sign|west|traffic light,43
+traffic sign|west|trash bin,21
+traffic sign|west|vegetation,274
+traffic sign|west|vending machine,8
+traffic sign|west|wall,111
+trash bin|east|box,33
+trash bin|east|building,190
+trash bin|east|fence,171
+trash bin|east|garage,111
+trash bin|east|lamp,35
+trash bin|east|parking,141
+trash bin|east|pole,103
+trash bin|east|road,111
+trash bin|east|sidewalk,160
+trash bin|east|smallpole,11
+trash bin|east|stop,6
+trash bin|east|terrain,148
+trash bin|east|traffic sign,21
+trash bin|east|vegetation,223
+trash bin|east|wall,148
+trash bin|north|box,67
+trash bin|north|building,275
+trash bin|north|fence,142
+trash bin|north|garage,108
+trash bin|north|lamp,33
+trash bin|north|parking,107
+trash bin|north|pole,131
+trash bin|north|road,129
+trash bin|north|sidewalk,181
+trash bin|north|smallpole,20
+trash bin|north|terrain,155
+trash bin|north|traffic light,2
+trash bin|north|traffic sign,28
+trash bin|north|vegetation,280
+trash bin|north|wall,175
+trash bin|south|box,53
+trash bin|south|building,280
+trash bin|south|fence,154
+trash bin|south|garage,58
+trash bin|south|lamp,27
+trash bin|south|parking,131
+trash bin|south|pole,96
+trash bin|south|road,134
+trash bin|south|sidewalk,167
+trash bin|south|smallpole,30
+trash bin|south|terrain,147
+trash bin|south|traffic light,2
+trash bin|south|traffic sign,26
+trash bin|south|vegetation,286
+trash bin|south|wall,145
+trash bin|west|box,85
+trash bin|west|building,197
+trash bin|west|fence,201
+trash bin|west|garage,88
+trash bin|west|lamp,32
+trash bin|west|parking,146
+trash bin|west|pole,95
+trash bin|west|road,153
+trash bin|west|sidewalk,223
+trash bin|west|smallpole,29
+trash bin|west|terrain,130
+trash bin|west|traffic sign,8
+trash bin|west|vegetation,265
+trash bin|west|vending machine,4
+trash bin|west|wall,173
+vegetation|east|box,239
+vegetation|east|building,1191
+vegetation|east|fence,823
+vegetation|east|garage,514
+vegetation|east|lamp,274
+vegetation|east|parking,699
+vegetation|east|pole,852
+vegetation|east|road,1118
+vegetation|east|sidewalk,1248
+vegetation|east|smallpole,137
+vegetation|east|stop,8
+vegetation|east|terrain,1046
+vegetation|east|traffic light,33
+vegetation|east|traffic sign,274
+vegetation|east|trash bin,265
+vegetation|east|vending machine,35
+vegetation|east|wall,942
+vegetation|north|box,308
+vegetation|north|building,1262
+vegetation|north|fence,897
+vegetation|north|garage,532
+vegetation|north|lamp,279
+vegetation|north|parking,772
+vegetation|north|pole,863
+vegetation|north|road,1134
+vegetation|north|sidewalk,1305
+vegetation|north|smallpole,149
+vegetation|north|stop,3
+vegetation|north|terrain,1139
+vegetation|north|traffic light,24
+vegetation|north|traffic sign,272
+vegetation|north|trash bin,286
+vegetation|north|vending machine,43
+vegetation|north|wall,1005
+vegetation|south|box,277
+vegetation|south|building,1196
+vegetation|south|fence,928
+vegetation|south|garage,450
+vegetation|south|lamp,299
+vegetation|south|parking,706
+vegetation|south|pole,874
+vegetation|south|road,1134
+vegetation|south|sidewalk,1394
+vegetation|south|smallpole,159
+vegetation|south|stop,5
+vegetation|south|terrain,1069
+vegetation|south|traffic light,28
+vegetation|south|traffic sign,290
+vegetation|south|trash bin,280
+vegetation|south|vending machine,21
+vegetation|south|wall,1030
+vegetation|west|box,286
+vegetation|west|building,1131
+vegetation|west|fence,900
+vegetation|west|garage,455
+vegetation|west|lamp,270
+vegetation|west|parking,668
+vegetation|west|pole,855
+vegetation|west|road,1113
+vegetation|west|sidewalk,1350
+vegetation|west|smallpole,164
+vegetation|west|stop,4
+vegetation|west|terrain,1023
+vegetation|west|traffic light,32
+vegetation|west|traffic sign,283
+vegetation|west|trash bin,223
+vegetation|west|vending machine,31
+vegetation|west|wall,957
+vending machine|east|building,19
+vending machine|east|fence,10
+vending machine|east|garage,9
+vending machine|east|lamp,12
+vending machine|east|parking,12
+vending machine|east|pole,17
+vending machine|east|road,17
+vending machine|east|sidewalk,19
+vending machine|east|smallpole,2
+vending machine|east|terrain,11
+vending machine|east|traffic sign,8
+vending machine|east|trash bin,4
+vending machine|east|vegetation,31
+vending machine|east|wall,11
+vending machine|north|box,11
+vending machine|north|building,9
+vending machine|north|fence,17
+vending machine|north|garage,2
+vending machine|north|lamp,3
+vending machine|north|parking,11
+vending machine|north|pole,18
+vending machine|north|road,16
+vending machine|north|sidewalk,25
+vending machine|north|smallpole,4
+vending machine|north|terrain,12
+vending machine|north|traffic sign,10
+vending machine|north|vegetation,21
+vending machine|north|wall,19
+vending machine|south|box,2
+vending machine|south|building,25
+vending machine|south|fence,26
+vending machine|south|parking,3
+vending machine|south|pole,6
+vending machine|south|road,8
+vending machine|south|sidewalk,18
+vending machine|south|terrain,14
+vending machine|south|traffic sign,4
+vending machine|south|vegetation,43
+vending machine|south|wall,21
+vending machine|west|building,17
+vending machine|west|fence,8
+vending machine|west|garage,7
+vending machine|west|lamp,6
+vending machine|west|parking,7
+vending machine|west|pole,20
+vending machine|west|road,12
+vending machine|west|sidewalk,14
+vending machine|west|smallpole,1
+vending machine|west|terrain,22
+vending machine|west|vegetation,35
+vending machine|west|wall,18
+wall|east|box,128
+wall|east|building,749
+wall|east|fence,493
+wall|east|garage,338
+wall|east|lamp,171
+wall|east|parking,386
+wall|east|pole,436
+wall|east|road,562
+wall|east|sidewalk,670
+wall|east|smallpole,46
+wall|east|terrain,501
+wall|east|traffic light,20
+wall|east|traffic sign,111
+wall|east|trash bin,173
+wall|east|vegetation,957
+wall|east|vending machine,18
+wall|north|box,160
+wall|north|building,826
+wall|north|fence,670
+wall|north|garage,296
+wall|north|lamp,168
+wall|north|parking,406
+wall|north|pole,440
+wall|north|road,523
+wall|north|sidewalk,725
+wall|north|smallpole,57
+wall|north|stop,3
+wall|north|terrain,532
+wall|north|traffic light,11
+wall|north|traffic sign,85
+wall|north|trash bin,145
+wall|north|vegetation,1030
+wall|north|vending machine,21
+wall|south|box,162
+wall|south|building,774
+wall|south|fence,625
+wall|south|garage,285
+wall|south|lamp,180
+wall|south|parking,411
+wall|south|pole,529
+wall|south|road,602
+wall|south|sidewalk,782
+wall|south|smallpole,60
+wall|south|terrain,547
+wall|south|traffic light,11
+wall|south|traffic sign,157
+wall|south|trash bin,175
+wall|south|vegetation,1005
+wall|south|vending machine,19
+wall|west|box,133
+wall|west|building,712
+wall|west|fence,521
+wall|west|garage,301
+wall|west|lamp,105
+wall|west|parking,428
+wall|west|pole,393
+wall|west|road,577
+wall|west|sidewalk,733
+wall|west|smallpole,47
+wall|west|terrain,470
+wall|west|traffic light,8
+wall|west|traffic sign,95
+wall|west|trash bin,148
+wall|west|vegetation,942
+wall|west|vending machine,11

@@ -1,0 +1,10 @@
+FINAL STATUS: PASS
+Held-out identifiability-aware re-evaluation completed.
+Queries: 11505
+Candidates: 4308
+Pairs per semantic condition: 49563540
+Primary semantics: stored semantics including color
+Sensitivity: no-color
+Excluded queries: 0
+Bootstrap replicates: 10000
+Seed: 20260901

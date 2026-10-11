@@ -1,0 +1,200 @@
+{
+  "H1": {
+    "effects": {
+      "text2loc": {
+        "1": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.19111288556436368,
+          "ci_low": 0.15788385596297355,
+          "estimate": 0.1741760534000834,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "H1_effect::text2loc::semantic-minus-source_V>1::1"
+        },
+        "10": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.1243040224025096,
+          "ci_low": 0.09573752864153486,
+          "estimate": 0.10992907801418439,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "H1_effect::text2loc::semantic-minus-source_V>1::10"
+        },
+        "5": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.1595588967551943,
+          "ci_low": 0.12907234259670827,
+          "estimate": 0.14434710054234456,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "H1_effect::text2loc::semantic-minus-source_V>1::5"
+        }
+      },
+      "text2pos": {
+        "1": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.09638320771160956,
+          "ci_low": 0.07243331137609185,
+          "estimate": 0.08427200667501045,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "H1_effect::text2pos::semantic-minus-source_V>1::1"
+        },
+        "10": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.16587121192595766,
+          "ci_low": 0.1342420354217636,
+          "estimate": 0.14977054651647892,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "H1_effect::text2pos::semantic-minus-source_V>1::10"
+        },
+        "5": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.14999041858670545,
+          "ci_low": 0.12071397718571457,
+          "estimate": 0.13516896120150185,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "H1_effect::text2pos::semantic-minus-source_V>1::5"
+        }
+      }
+    },
+    "statement": "Semantic-set Recall@K exceeds exact-source Recall@K when V>1."
+  },
+  "H2": {
+    "note": "No exploratory p-values are reported.",
+    "secondary_descriptive_association": [
+      {
+        "K": 1,
+        "association": "within-scene linear-probability slope",
+        "inferential_status": "secondary descriptive; no p-value",
+        "model": "text2pos",
+        "outcome": "source_fail_semantic_success",
+        "predictor": "log2(1+V_primary)",
+        "slope": 0.051026049581056714
+      },
+      {
+        "K": 5,
+        "association": "within-scene linear-probability slope",
+        "inferential_status": "secondary descriptive; no p-value",
+        "model": "text2pos",
+        "outcome": "source_fail_semantic_success",
+        "predictor": "log2(1+V_primary)",
+        "slope": 0.08653943024168752
+      },
+      {
+        "K": 10,
+        "association": "within-scene linear-probability slope",
+        "inferential_status": "secondary descriptive; no p-value",
+        "model": "text2pos",
+        "outcome": "source_fail_semantic_success",
+        "predictor": "log2(1+V_primary)",
+        "slope": 0.09150187681289515
+      },
+      {
+        "K": 1,
+        "association": "within-scene linear-probability slope",
+        "inferential_status": "secondary descriptive; no p-value",
+        "model": "text2loc",
+        "outcome": "source_fail_semantic_success",
+        "predictor": "log2(1+V_primary)",
+        "slope": 0.09937195111641924
+      },
+      {
+        "K": 5,
+        "association": "within-scene linear-probability slope",
+        "inferential_status": "secondary descriptive; no p-value",
+        "model": "text2loc",
+        "outcome": "source_fail_semantic_success",
+        "predictor": "log2(1+V_primary)",
+        "slope": 0.083138422225561
+      },
+      {
+        "K": 10,
+        "association": "within-scene linear-probability slope",
+        "inferential_status": "secondary descriptive; no p-value",
+        "model": "text2loc",
+        "outcome": "source_fail_semantic_success",
+        "predictor": "log2(1+V_primary)",
+        "slope": 0.06541973376951954
+      }
+    ],
+    "statement": "Source-fail/semantic-success rate increases with semantic multiplicity."
+  },
+  "H3": {
+    "effects": {
+      "semantic": {
+        "1": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.1767140228742482,
+          "ci_low": 0.15480785416020154,
+          "estimate": 0.16584093872229466,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "effect::text2loc-minus-text2pos::semantic::1"
+        },
+        "10": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.1909283541353247,
+          "ci_low": 0.1689286963679561,
+          "estimate": 0.1799217731421121,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "effect::text2loc-minus-text2pos::semantic::10"
+        },
+        "5": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.21152843429301496,
+          "ci_low": 0.18920555158174399,
+          "estimate": 0.20043459365493266,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "effect::text2loc-minus-text2pos::semantic::5"
+        }
+      },
+      "source": {
+        "1": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.19168649195305276,
+          "ci_low": 0.16567836645627276,
+          "estimate": 0.17870491090830076,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "effect::text2loc-minus-text2pos::source::1"
+        },
+        "10": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.30257555110559714,
+          "ci_low": 0.27198426804709536,
+          "estimate": 0.2872664059104737,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "effect::text2loc-minus-text2pos::source::10"
+        },
+        "5": {
+          "bootstrap_requested_reps": 10000,
+          "bootstrap_valid_reps": 10000,
+          "ci_high": 0.2965147432738191,
+          "ci_low": 0.2667239576079009,
+          "estimate": 0.281703607127336,
+          "method": "paired scene-stratified source-cell-clustered bootstrap",
+          "seed": 20260901,
+          "statistic": "effect::text2loc-minus-text2pos::source::5"
+        }
+      }
+    },
+    "statement": "Text2Loc retains an advantage over Text2Pos under both source-based and semantic-set evaluation."
+  }
+}

@@ -1,0 +1,69 @@
+statistic,estimate,ci_low,ci_high,bootstrap_valid_reps,bootstrap_requested_reps,seed,method
+main::text2pos::source::1,0.11925249891351586,0.10949808108499189,0.12890348794492618,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2pos::semantic::1,0.1241199478487614,0.11525211131843384,0.13322846968756039,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2pos::disagree::1,0.049804432855280314,0.04483250447317431,0.05492804717197401,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2pos::source::1,0.13600333750521484,0.1208329167543675,0.1512018390322355,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2pos::semantic::1,0.2202753441802253,0.20353935929277736,0.23743976594477995,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2pos::source::5,0.31951325510647544,0.30370421475410486,0.3349487192725638,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2pos::semantic::5,0.2790960451977401,0.2658966907943286,0.2922740120649594,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2pos::disagree::5,0.0812690134724033,0.07494203493798623,0.08789504287988377,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2pos::source::5,0.34856070087609514,0.3267402628750356,0.3702330642365823,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2pos::semantic::5,0.483729662077597,0.46274329085529786,0.5044160715360627,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2pos::source::10,0.42598870056497173,0.4091897682010649,0.44237227909373866,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2pos::semantic::10,0.35567144719687094,0.3419953839999724,0.3694059812304206,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2pos::disagree::10,0.08996088657105607,0.08336194629600731,0.0971368975200435,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2pos::source::10,0.4570296203587818,0.4341517003769363,0.4793313905474371,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2pos::semantic::10,0.6068001668752607,0.5867994802511453,0.626184050384923,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::source::1,0.2979574098218166,0.28408804419358363,0.3118364733791764,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::semantic::1,0.28996088657105606,0.2775321202367474,0.3023082448745826,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::disagree::1,0.10525858322468493,0.09804071319604614,0.11288545492573389,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2loc::source::1,0.31789737171464333,0.29804014899134706,0.33726700010625116,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2loc::semantic::1,0.49207342511472674,0.4721443147228832,0.5121127263019101,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::source::5,0.6012168622338114,0.5854942414127354,0.6165724589476856,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::semantic::5,0.4795306388526728,0.46538261206711806,0.49382324195314375,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::disagree::5,0.09161234245980009,0.0850132018321712,0.09837519181787033,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2loc::source::5,0.6391322486441385,0.6187456529804886,0.6589502489350612,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2loc::semantic::5,0.7834793491864831,0.7670036526202968,0.7995039655750925,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::source::10,0.7132551064754454,0.6989014406057756,0.727547060219748,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::semantic::10,0.535593220338983,0.5215558486088074,0.5496104417773962,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+main::text2loc::disagree::10,0.0730986527596697,0.06673079889196123,0.0793270530538974,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2loc::source::10,0.7521902377972466,0.7338054516116378,0.7702900782783819,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+H1::text2loc::semantic::10,0.862119315811431,0.8489936248301436,0.8748147592628696,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=0::text2pos::source::1,0.0860242831309739,0.07517967660248472,0.09765450463249262,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=0::text2pos::semantic::1,0.0,0.0,0.0,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=0::text2loc::source::1,0.23585636786360115,0.217918864174064,0.25383850990791396,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=0::text2loc::semantic::1,0.0,0.0,0.0,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=1::text2pos::source::1,0.13626760563380283,0.11972318088619681,0.15373770751204344,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=1::text2pos::semantic::1,0.13098591549295774,0.11535788133024434,0.14729545557897245,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=1::text2loc::source::1,0.34894366197183097,0.3245005472802849,0.37358814668400675,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=1::text2loc::semantic::1,0.34401408450704224,0.320426075294557,0.3680234388146841,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=2-10::text2pos::source::1,0.1375,0.12212892817020912,0.15304847679229724,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=2-10::text2pos::semantic::1,0.2183189655172414,0.20128063244547592,0.23565533645112186,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=2-10::text2loc::source::1,0.32047413793103446,0.30036657056014854,0.3400673579693146,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=2-10::text2loc::semantic::1,0.4879310344827586,0.4677969920943018,0.5081517587894472,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=11-50::text2pos::source::1,0.08666666666666667,0.030534351145038167,0.1503267973856209,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=11-50::text2pos::semantic::1,0.2733333333333333,0.19463087248322147,0.35625,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=11-50::text2loc::source::1,0.24,0.15267175572519084,0.33093651839092103,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=11-50::text2loc::semantic::1,0.6133333333333333,0.5203238299274885,0.6994219653179191,10000,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=51-100::text2pos::source::1,0.25,0.0,1.0,9483,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=51-100::text2pos::semantic::1,0.5,0.0,1.0,9483,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=51-100::text2loc::source::1,0.25,0.0,1.0,9483,10000,20260901,scene-stratified source-cell-clustered bootstrap
+bin::V=51-100::text2loc::semantic::1,0.75,0.5,1.0,9483,10000,20260901,scene-stratified source-cell-clustered bootstrap
+effect::text2pos::semantic-minus-source::1,0.004867448935245544,-0.002534815551851804,0.012279787958694744,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+H1_effect::text2pos::semantic-minus-source_V>1::1,0.08427200667501045,0.07243331137609185,0.09638320771160956,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2pos::semantic-minus-source::5,-0.04041720990873532,-0.05213572271650243,-0.02852345767808787,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+H1_effect::text2pos::semantic-minus-source_V>1::5,0.13516896120150185,0.12071397718571457,0.14999041858670545,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2pos::semantic-minus-source::10,-0.0703172533681008,-0.08322632205262745,-0.056928568104974014,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+H1_effect::text2pos::semantic-minus-source_V>1::10,0.14977054651647892,0.1342420354217636,0.16587121192595766,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc::semantic-minus-source::1,-0.007996523250760557,-0.019896941788841837,0.004189725884809044,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+H1_effect::text2loc::semantic-minus-source_V>1::1,0.1741760534000834,0.15788385596297355,0.19111288556436368,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc::semantic-minus-source::5,-0.12168622338113866,-0.13627377450812814,-0.10770549148983524,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+H1_effect::text2loc::semantic-minus-source_V>1::5,0.14434710054234456,0.12907234259670827,0.1595588967551943,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc::semantic-minus-source::10,-0.1776618861364624,-0.1926180969727752,-0.1632185784272269,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+H1_effect::text2loc::semantic-minus-source_V>1::10,0.10992907801418439,0.09573752864153486,0.1243040224025096,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc-minus-text2pos::source::1,0.17870491090830076,0.16567836645627276,0.19168649195305276,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc-minus-text2pos::source::5,0.281703607127336,0.2667239576079009,0.2965147432738191,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc-minus-text2pos::source::10,0.2872664059104737,0.27198426804709536,0.30257555110559714,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc-minus-text2pos::semantic::1,0.16584093872229466,0.15480785416020154,0.1767140228742482,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc-minus-text2pos::semantic::5,0.20043459365493266,0.18920555158174399,0.21152843429301496,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap
+effect::text2loc-minus-text2pos::semantic::10,0.1799217731421121,0.1689286963679561,0.1909283541353247,10000,10000,20260901,paired scene-stratified source-cell-clustered bootstrap

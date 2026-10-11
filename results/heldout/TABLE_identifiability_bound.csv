@@ -1,0 +1,5 @@
+scope,queries,distinct_exact_texts,repeated_query_count,max_text_multiplicity,texts_with_conflicting_sources,queries_in_conflicting_text_groups,bound_numerator,bound_denominator,B_id,primary_key
+pooled,11505,10968,537,5,83,181,11419,11505,0.9925249891351586,SHA-256 of exact stored model-input text; no normalization
+2013_05_28_drive_0003_sync,949,898,51,5,8,19,941,949,0.9915700737618546,SHA-256 of exact stored model-input text; no normalization
+2013_05_28_drive_0005_sync,3079,2970,109,4,16,34,3062,3079,0.9944787268593699,SHA-256 of exact stored model-input text; no normalization
+2013_05_28_drive_0009_sync,7477,7100,377,4,59,128,7416,7477,0.9918416477196736,SHA-256 of exact stored model-input text; no normalization

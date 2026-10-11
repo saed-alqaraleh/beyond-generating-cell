@@ -1,0 +1,7 @@
+condition,subset,model,K,query_count,source_cell_cluster_count,source_recall_numerator,source_recall,semantic_recall_numerator,semantic_recall,corrected_null_recall_mean,corrected_null_recall_min_over_repetitions,corrected_null_recall_max_over_repetitions,mandatory_null_ge_source_recall,null_repetitions
+source_membership_matched_degree_preserving_null,V>1_and_source_supported,text2pos,1,3780,1240,570,0.15079365079365079,920,0.24338624338624337,0.15278756613756617,0.15105820105820106,0.15555555555555556,True,1000
+source_membership_matched_degree_preserving_null,V>1_and_source_supported,text2pos,5,3780,1240,1435,0.37962962962962965,1971,0.5214285714285715,0.38578624338624334,0.3825396825396825,0.3904761904761905,True,1000
+source_membership_matched_degree_preserving_null,V>1_and_source_supported,text2pos,10,3780,1240,1859,0.4917989417989418,2444,0.6465608465608466,0.5011380952380953,0.49576719576719575,0.5060846560846561,True,1000
+source_membership_matched_degree_preserving_null,V>1_and_source_supported,text2loc,1,3780,1240,1371,0.3626984126984127,2055,0.5436507936507936,0.36480793650793647,0.3626984126984127,0.3671957671957672,True,1000
+source_membership_matched_degree_preserving_null,V>1_and_source_supported,text2loc,5,3780,1240,2632,0.6962962962962963,3120,0.8253968253968254,0.699750529100529,0.6970899470899471,0.7034391534391534,True,1000
+source_membership_matched_degree_preserving_null,V>1_and_source_supported,text2loc,10,3780,1240,3034,0.8026455026455026,3393,0.8976190476190476,0.8066082010582011,0.803968253968254,0.8097883597883598,True,1000

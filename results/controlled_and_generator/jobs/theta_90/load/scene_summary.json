@@ -1,0 +1,39 @@
+{
+  "scene": "2013_05_28_drive_0000_sync",
+  "n_cells": 2466,
+  "n_objects": 38094,
+  "label_counts": {
+    "vegetation": 7992,
+    "building": 4729,
+    "sidewalk": 3742,
+    "terrain": 3139,
+    "wall": 3043,
+    "pole": 2711,
+    "fence": 2682,
+    "road": 2287,
+    "parking": 1800,
+    "garage": 1648,
+    "traffic sign": 1253,
+    "trash bin": 905,
+    "smallpole": 764,
+    "box": 653,
+    "lamp": 528,
+    "traffic light": 143,
+    "vending machine": 54,
+    "stop": 21
+  },
+  "resolved_fields": {
+    "cell_objects": "objects",
+    "cell_id": "id",
+    "obj_label": "label",
+    "obj_xyz": "xyz",
+    "obj_id": "id",
+    "obj_color": "rgb",
+    "cell_bbox": "bbox_w",
+    "cell_center": "<center of bbox_w>"
+  },
+  "stubbed_classes": {
+    "datapreparation.kitti360.imports.Cell": "_Stub",
+    "datapreparation.kitti360.imports.Object3d": "_Stub"
+  }
+}

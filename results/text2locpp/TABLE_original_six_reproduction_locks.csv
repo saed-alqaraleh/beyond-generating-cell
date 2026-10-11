@@ -1,0 +1,7 @@
+model,K,effect_exact,simultaneous_ci_exact
+text2pos,1,True,True
+text2pos,5,True,True
+text2pos,10,True,True
+text2loc,1,True,True
+text2loc,5,True,True
+text2loc,10,True,True

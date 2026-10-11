@@ -1,0 +1,33 @@
+{
+  "chain_seeds": [
+    8499583410555373058,
+    10199151754240631948,
+    10629114546811013277,
+    8776524103585513639
+  ],
+  "config_hash": "5b15d8b372a3f5842be7d1a2fbab1f8f86cd0976f872e80b27135e28ca9902e5",
+  "configuration": {
+    "base_seed": 20260905,
+    "bootstrap_reps": 10000,
+    "bootstrap_seed": 20260901,
+    "burn_edge_multiples": 160,
+    "chains": 4,
+    "checkpoint_every": 5,
+    "diagnostic_query_count": 3780,
+    "diagnostic_subset": "V>1 and source_supported",
+    "minimum_total_repetitions": 1000,
+    "preserve_candidate_column_degrees": true,
+    "preserve_per_query_scene_cardinality": true,
+    "preserve_query_cardinality": true,
+    "preserve_source_membership": true,
+    "primary_query_count": 4794,
+    "primary_subset": "V>1",
+    "retained_per_chain": 250,
+    "rhat_max": 1.1,
+    "same_null_sets_for_both_models": true,
+    "thin_edge_multiples": 16,
+    "version": "source_membership_matched_semantic_null_v2_1"
+  },
+  "input_hash": "c26f00c7d23917ca589c867a93f86fad71163df5b6c7ad4045ff8d952826bcbf",
+  "status": "PASS"
+}
