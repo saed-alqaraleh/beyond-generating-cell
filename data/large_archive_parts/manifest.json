@@ -1,0 +1,33 @@
+{
+  "target": "results/controlled_and_generator/jobs/template_analysis_primary/per_template_scores.npz",
+  "bytes": 4091675,
+  "sha256": "5d652a98398dc605dc532808e312394d10cace829a8978b527be8ff73fa78834",
+  "parts_dir": "data/large_archive_parts",
+  "parts": [
+    {
+      "filename": "per_template_scores.npz.part000",
+      "bytes": 850000,
+      "sha256": "3610ad86ccfca5b20a53f5a9c69c9f5e3653f8c7e8b6fd9eef054f89d135b719"
+    },
+    {
+      "filename": "per_template_scores.npz.part001",
+      "bytes": 850000,
+      "sha256": "d54be34a5ca917347ec988aa1222df2c588fc5c66887df6d31bca7159c45bc5c"
+    },
+    {
+      "filename": "per_template_scores.npz.part002",
+      "bytes": 850000,
+      "sha256": "642db8564f224f661d6dff28b626ec5fa6da443c2543d4d7832587c203bf1dca"
+    },
+    {
+      "filename": "per_template_scores.npz.part003",
+      "bytes": 850000,
+      "sha256": "6d49b59b97f27e5908c9d6d1417feeb356dd8cf99668383ff8b0139c2a2a2992"
+    },
+    {
+      "filename": "per_template_scores.npz.part004",
+      "bytes": 691675,
+      "sha256": "bc06f1139246704d5390a7159a06664fa9feef3671aeaec135e02208cf1f4501"
+    }
+  ]
+}

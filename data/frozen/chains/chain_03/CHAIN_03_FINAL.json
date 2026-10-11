@@ -1,0 +1,38 @@
+{
+  "acceptance_rate": 0.9794283800914436,
+  "accepted_by_scene": [
+    2465460,
+    14608620,
+    41397951
+  ],
+  "accepted_swaps": 58472031,
+  "burn_proposals_target": 2296160,
+  "candidate_column_degree_mismatches": 0,
+  "chain_id": 3,
+  "chain_seed": 8776524103585513639,
+  "config_hash": "5b15d8b372a3f5842be7d1a2fbab1f8f86cd0976f872e80b27135e28ca9902e5",
+  "conservative_lower_bound_violations": 0,
+  "free_edge_overlap_final": 0.011288411915302277,
+  "free_edge_overlap_mean": 0.011666364967823029,
+  "free_edges": 14351,
+  "input_hash": "c26f00c7d23917ca589c867a93f86fad71163df5b6c7ad4045ff8d952826bcbf",
+  "output": "/content/drive/MyDrive/or_fusion_verification/heldout_identifiability_v1/source_membership_matched_null_v2_1/RUN_5b15d8b372a3/chains/chain_03/CHAIN_03_FINAL.npz",
+  "output_sha256": "350cece8df85b20a7ea6c3e386e0ca87b6846272cbc375ae5e0bbecd06e77f5b",
+  "proposed_by_scene": [
+    2610314,
+    14918940,
+    42170906
+  ],
+  "proposed_swaps": 59700160,
+  "query_count": 4794,
+  "retained_repetitions": 250,
+  "row_scene_degree_mismatches": 0,
+  "source_membership_mismatches": 0,
+  "source_membership_query_rep_checks": 1198500,
+  "source_supported_monotonic_violations": 0,
+  "source_supported_query_count": 3780,
+  "status": "PASS",
+  "thin_proposals_per_retained_state": 229616,
+  "total_cardinality_mismatches": 0,
+  "transition_clock": "fixed_proposals_including_rejected_self_loops"
+}
