@@ -1,0 +1,32 @@
+{
+  "job": "theta_22.5",
+  "returncode": 0,
+  "status": "success",
+  "ok": true,
+  "completed": true,
+  "signature": "5536fc4c07ac7110acd6b020176e8487fe7fba85eb1f17fba24fc8b1d485e28c",
+  "version": "2.2.0",
+  "code_hash": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "kpose_diagnostics.cli.run_gt_validity",
+    "--cells",
+    "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl",
+    "--scene",
+    "2013_05_28_drive_0000_sync",
+    "--theta",
+    "22.5",
+    "--reference-mode",
+    "off",
+    "--out-dir",
+    "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_22.5",
+    "--cache-dir",
+    "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/track1"
+  ],
+  "elapsed_s": 13.8,
+  "log": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/logs/theta_22.5.log",
+  "result": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_22.5/gt_validity_results.json",
+  "finished_utc": "2026-08-30T17:50:51Z"
+}

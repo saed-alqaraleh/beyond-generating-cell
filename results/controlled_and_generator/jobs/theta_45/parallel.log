@@ -1,0 +1,73 @@
+COMMAND: /usr/bin/python3 -u -m kpose_diagnostics.cli.run_gt_validity --cells /content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl --scene 2013_05_28_drive_0000_sync --theta 45 --reference-mode off --out-dir /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_45 --cache-dir /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/track1
+
+[    0.0s] ========================================================================
+[    0.0s] BLOCKER B1 -- generating-cell validity
+[    0.0s] ========================================================================
+[    0.0s] scene      : 2013_05_28_drive_0000_sync
+[    0.0s] cells      : /content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl
+[    0.0s] theta      : 45.0 deg
+[    0.0s] out-dir    : /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_45
+[    0.0s] environment: {'python': '3.13.15', 'platform': 'Linux-6.6.122+-x86_64-with-glibc2.35', 'numpy': '2.1.3', 'utc': '2026-08-30T17:50:51Z'}
+[    0.0s] git        : not-a-git-repo
+[    0.0s] 
+[    0.0s] stage load: starting
+[    0.1s]     scene cache hit: /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/track1/scene_2013_05_28_drive_0000_sync_6c547c4418f7.npz
+[    0.1s]     cells   : 2466
+[    0.1s]     objects : 38094
+[    0.1s]     labels  : 18
+[    0.1s]     stubbed classes (harmless): ['datapreparation.kitti360.imports.Cell', 'datapreparation.kitti360.imports.Object3d']
+[    0.1s]     resolved fields: {'cell_objects': 'objects', 'cell_id': 'id', 'obj_label': 'label', 'obj_xyz': 'xyz', 'obj_id': 'id', 'obj_color': 'rgb', 'cell_bbox': 'bbox_w', 'cell_center': '<center of bbox_w>'}
+[    0.1s] stage load: complete in 0.07s
+[    0.1s] 
+[    0.1s] computing valid sets, query population and generating-cell validity
+[    0.1s] (one pass over cells; all three quantities come from the same pass)
+[    0.6s]     pass 1: 250/2466 cells
+[    1.3s]     pass 1: 500/2466 cells
+[    2.1s]     pass 1: 750/2466 cells
+[    2.8s]     pass 1: 1000/2466 cells
+[    3.4s]     pass 1: 1250/2466 cells
+[    4.3s]     pass 1: 1500/2466 cells
+[    5.3s]     pass 1: 1750/2466 cells
+[    6.5s]     pass 1: 2000/2466 cells
+[    8.0s]     pass 1: 2250/2466 cells
+[    9.1s]     queries           : 564,768
+[    9.1s]     templates realised: 1,126
+[    9.1s] 
+[    9.1s] ------------------------------------------------------------------------
+[    9.1s] REPRODUCTION GATE
+[    9.1s] ------------------------------------------------------------------------
+[    9.1s] reference comparison not applied for theta=45 (mode=off)
+[    9.1s] 
+[    9.1s] ------------------------------------------------------------------------
+[    9.1s] MEASUREMENT
+[    9.1s] ------------------------------------------------------------------------
+[   12.8s]   R   (all queries)            : 0.496505  [0.491761, 0.501351]   <- clustered by source cell
+[   12.8s]   R_1 (V = 1 stratum, n=108)    : 0.055556
+[   12.8s]   naive ceiling E[1/V]         : 0.005906
+[   12.8s]   recoverable ceiling          : 0.001994
+[   12.8s]   naive / recoverable          : 2.96x  <- factor by which E[1/V] overstates the bound
+[   12.8s] 
+[   12.8s]   PREDICTION UNDER TEST: if the manuscript's 0.125 on the V = 1
+[   12.8s]   stratum is explained by generating-cell validity rather than by
+[   12.8s]   scoring, then R_1 should be close to 6/48 = 0.125.
+[   12.8s]   observed R_1 = 0.0556   (0.125 would confirm; 1.000 would refute)
+[   12.8s] 
+[   12.8s]   stratum            queries    mean V         R      E[1/V]   recoverable
+[   12.8s]   V = 0                  444       0.0    0.0000      1.0000        0.0000
+[   12.8s]   V = 1 (unique)         108       1.0    0.0556      1.0000        0.0556
+[   12.8s]   2-5                    856       3.2    0.2640      0.3465        0.0864
+[   12.8s]   6-10                 1,692       7.9    0.3144      0.1309        0.0402
+[   12.8s]   11-50               15,258      32.0    0.3831      0.0369        0.0143
+[   12.8s]   51-200             102,906     136.9    0.4057      0.0081        0.0032
+[   12.8s]   201-500            160,844     352.6    0.4499      0.0031        0.0014
+[   12.8s]   501-1000           208,822     702.2    0.5343      0.0015        0.0008
+[   12.8s]   > 1000              73,838    1153.8    0.6516      0.0009        0.0006
+[   13.4s] 
+[   13.4s] wrote:
+[   13.4s]   /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_45/gt_validity_results.json
+[   13.4s]   /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_45/per_query.npz
+[   13.4s]   /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_45/strata.csv
+[   13.4s]   /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_45/template_v.csv
+[   13.4s]   /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/theta_45/run.log
+[   13.4s] 
+[   13.4s] DONE. Send gt_validity_results.json and run.log.
