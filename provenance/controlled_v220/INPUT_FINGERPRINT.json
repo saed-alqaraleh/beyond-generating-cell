@@ -1,0 +1,16 @@
+{
+  "cells": {
+    "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells",
+    "n_files": 4,
+    "size_bytes": 7773746705,
+    "sha256": "28ae56bbff5cc0fde8e0549c3820a2908c049a9ec402f22b83ebb61bb3bdf503",
+    "method": "sha256-content-tree-v1"
+  },
+  "poses": {
+    "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/poses",
+    "n_files": 1,
+    "size_bytes": 13692519,
+    "sha256": "141c5402bd261d2c1352804f838075dcc12ea795619b3a77f605751334988f41",
+    "method": "sha256-content-tree-v1"
+  }
+}

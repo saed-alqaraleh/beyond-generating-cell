@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "scientific_operation": "post-processing only from four completed deterministically reconstructed frozen null chains",
+  "no_model_inference": true,
+  "no_markov_chain_execution": true,
+  "no_new_null_design": true,
+  "frozen_bootstrap_implementation": "/content/drive/MyDrive/or_fusion_verification/heldout_identifiability_v1/SOURCE_MEMBERSHIP_MATCHED_SEMANTIC_NULL_CONTROL_FINAL_v2_1/code/source_matched_null/core.py",
+  "bootstrap_adapter": "three Text2Loc++ effects duplicated into the two model slots required by the frozen six-effect bootstrap implementation; duplicated results required to be bit-identical",
+  "bootstrap_stream_validation": "mixed Text2Pos+Text2Loc++ and Text2Loc+Text2Loc++ six-effect calls reproduced their corresponding bootstrap columns exactly",
+  "n_queries": 4794,
+  "null_repetitions": 1000,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260901,
+  "source_hits": [
+    1814,
+    3419,
+    3878
+  ],
+  "semantic_hits": [
+    2748,
+    4020,
+    4351
+  ],
+  "source_recall": [
+    0.378389653733834,
+    0.713183145598665,
+    0.8089278264497288
+  ],
+  "semantic_recall": [
+    0.5732165206508135,
+    0.8385481852315394,
+    0.9075928243637881
+  ],
+  "corrected_null_recall": [
+    0.34419628702544375,
+    0.6088521068001693,
+    0.6822536503963282
+  ],
+  "semantic_minus_source": [
+    0.19482686691697956,
+    0.12536503963287443,
+    0.09866499791405924
+  ],
+  "semantic_minus_corrected_null": [
+    0.22902023362536783,
+    0.22969607843137413,
+    0.22533917396746006
+  ],
+  "semantic_source_pointwise_95": [
+    [
+      0.17711791671051247,
+      0.21238942637410194
+    ],
+    [
+      0.11103901586386476,
+      0.14026141615166302
+    ],
+    [
+      0.08633513254586463,
+      0.1118103577193693
+    ]
+  ],
+  "semantic_source_simultaneous_3_95": [
+    [
+      0.17626229990339082,
+      0.2133914339305683
+    ],
+    [
+      0.1068004726192857,
+      0.14392960664646315
+    ],
+    [
+      0.0801004309004705,
+      0.11722956492764797
+    ]
+  ],
+  "semantic_null_pointwise_95": [
+    [
+      0.21374207879593146,
+      0.24435711145848857
+    ],
+    [
+      0.21523373791279907,
+      0.24457272304342778
+    ],
+    [
+      0.21012569926783783,
+      0.2409595771145391
+    ]
+  ],
+  "semantic_null_simultaneous_3_95": [
+    [
+      0.21085959679008803,
+      0.24718087046064763
+    ],
+    [
+      0.21153544159609433,
+      0.24785671526665393
+    ],
+    [
+      0.20717853713218026,
+      0.24349981080273986
+    ]
+  ],
+  "source_raw_p": [
+    9.999000099990002e-05,
+    9.999000099990002e-05,
+    9.999000099990002e-05
+  ],
+  "source_holm_p": [
+    0.00029997000299970003,
+    0.00029997000299970003,
+    0.00029997000299970003
+  ],
+  "null_raw_mc_p": [
+    0.000999000999000999,
+    0.000999000999000999,
+    0.000999000999000999
+  ],
+  "null_holm_mc_p": [
+    0.002997002997002997,
+    0.002997002997002997,
+    0.002997002997002997
+  ],
+  "nine_comparison_critical_deviation": 0.02006164454985198,
+  "gates": {
+    "four_chain_replay_locks": true,
+    "all_four_original_chain_arrays_exact": true,
+    "retained_null_states": 1000,
+    "retained_null_states_is_1000": true,
+    "original_six_effects_exact": true,
+    "original_six_simultaneous_intervals_exact": true,
+    "text2locpp_duplicate_bootstrap_halves_exact": true,
+    "mixed_stream_text2pos_exact": true,
+    "mixed_stream_text2loc_exact": true,
+    "same_bootstrap_stream_across_all_three_models": true,
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260901,
+    "text2locpp_denominator": 4794,
+    "all_values_finite": true,
+    "semantic_source_all_3_simultaneous_ci_positive": true,
+    "semantic_null_all_3_simultaneous_ci_positive": true,
+    "semantic_source_all_3_holm_significant": true,
+    "semantic_null_all_3_holm_significant": true,
+    "text2locpp_9_comparison_sensitivity_all_positive": true
+  }
+}

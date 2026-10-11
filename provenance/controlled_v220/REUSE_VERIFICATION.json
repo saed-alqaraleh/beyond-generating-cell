@@ -1,0 +1,567 @@
+{
+  "kpose_2013_05_28_drive_0000_sync": {
+    "job": "kpose_2013_05_28_drive_0000_sync",
+    "verified": true,
+    "checks": [
+      {
+        "check": "manifest_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "merged_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "manifest_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "merged_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_job_present",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_success",
+        "pass": true,
+        "detail": "success"
+      },
+      {
+        "check": "done_marker_version",
+        "pass": true,
+        "detail": "2.2.0"
+      },
+      {
+        "check": "done_marker_core_hash",
+        "pass": true,
+        "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+      },
+      {
+        "check": "manifest_hash:_JOB_DONE.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:kpose_full_results.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:per_description.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:run.log",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "result_json_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_result_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_status_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "generator_agreement_1.0",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "generator_gate_passed",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "scientifically_valid",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "result_core_hash",
+        "pass": true,
+        "detail": null
+      }
+    ],
+    "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+  },
+  "kpose_color": {
+    "job": "kpose_color",
+    "verified": true,
+    "checks": [
+      {
+        "check": "manifest_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "merged_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "manifest_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "merged_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_job_present",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_success",
+        "pass": true,
+        "detail": "success"
+      },
+      {
+        "check": "done_marker_version",
+        "pass": true,
+        "detail": "2.2.0"
+      },
+      {
+        "check": "done_marker_core_hash",
+        "pass": true,
+        "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+      },
+      {
+        "check": "manifest_hash:_JOB_DONE.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:kpose_full_results.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:per_description.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:run.log",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "result_json_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_result_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_status_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "generator_agreement_1.0",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "generator_gate_passed",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "scientifically_valid",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "result_core_hash",
+        "pass": true,
+        "detail": null
+      }
+    ],
+    "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+  },
+  "theta_45": {
+    "job": "theta_45",
+    "verified": true,
+    "checks": [
+      {
+        "check": "manifest_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "merged_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "manifest_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "merged_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_job_present",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_success",
+        "pass": true,
+        "detail": "success"
+      },
+      {
+        "check": "done_marker_version",
+        "pass": true,
+        "detail": "2.2.0"
+      },
+      {
+        "check": "done_marker_core_hash",
+        "pass": true,
+        "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+      },
+      {
+        "check": "manifest_hash:_JOB_DONE.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:gt_validity_results.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:per_query.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:strata.csv",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:template_v.csv",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:run.log",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "result_json_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_result_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_status_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "theta_measurement_success",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "theta_reference_not_borrowed",
+        "pass": true,
+        "detail": null
+      }
+    ],
+    "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+  },
+  "theta_22.5": {
+    "job": "theta_22.5",
+    "verified": true,
+    "checks": [
+      {
+        "check": "manifest_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "merged_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "manifest_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "merged_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_job_present",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_success",
+        "pass": true,
+        "detail": "success"
+      },
+      {
+        "check": "done_marker_version",
+        "pass": true,
+        "detail": "2.2.0"
+      },
+      {
+        "check": "done_marker_core_hash",
+        "pass": true,
+        "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+      },
+      {
+        "check": "manifest_hash:_JOB_DONE.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:gt_validity_results.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:per_query.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:strata.csv",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:template_v.csv",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:run.log",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "result_json_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_result_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_status_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "theta_measurement_success",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "theta_reference_not_borrowed",
+        "pass": true,
+        "detail": null
+      }
+    ],
+    "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+  },
+  "theta_10": {
+    "job": "theta_10",
+    "verified": true,
+    "checks": [
+      {
+        "check": "manifest_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "merged_core_hash",
+        "pass": true,
+        "detail": {
+          "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+          "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        }
+      },
+      {
+        "check": "manifest_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "merged_input_fingerprint",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_job_present",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "done_marker_success",
+        "pass": true,
+        "detail": "success"
+      },
+      {
+        "check": "done_marker_version",
+        "pass": true,
+        "detail": "2.2.0"
+      },
+      {
+        "check": "done_marker_core_hash",
+        "pass": true,
+        "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+      },
+      {
+        "check": "manifest_hash:_JOB_DONE.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:gt_validity_results.json",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:per_query.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:strata.csv",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:template_v.csv",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "manifest_hash:run.log",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "result_json_readable",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_result_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "embedded_status_exact",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "theta_measurement_success",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "theta_reference_not_borrowed",
+        "pass": true,
+        "detail": null
+      }
+    ],
+    "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "config": {
+    "scene": "2013_05_28_drive_0000_sync",
+    "delta": 0.05,
+    "grid": 16,
+    "cell_size": 30.0,
+    "spacing_m": 2.0,
+    "use_color": false,
+    "keep_points": -1,
+    "code_version": "kpose_diagnostics/2.2.0",
+    "code_hash": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+    "input_fingerprint": {
+      "cells": {
+        "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl",
+        "n_files": 1,
+        "size_bytes": 2610480247,
+        "sha256": "6db6dd7625c9da414d9f5b852b08f8731764bce830fb85f34f29678fbd4a5f4a",
+        "method": "sha256-content-tree-v1"
+      },
+      "poses": {
+        "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/poses/2013_05_28_drive_0000_sync.pkl",
+        "n_files": 1,
+        "size_bytes": 13692519,
+        "sha256": "141c5402bd261d2c1352804f838075dcc12ea795619b3a77f605751334988f41",
+        "method": "sha256-content-tree-v1"
+      }
+    },
+    "scientifically_valid": true
+  },
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "numpy": "2.1.3",
+    "utc": "2026-08-30T18:22:58Z"
+  },
+  "stage1_verification": {
+    "agreement": 1.0,
+    "n_compared": 40170,
+    "passed": true,
+    "delta_sweep": [
+      [
+        0.015,
+        0.8965148120487927
+      ],
+      [
+        0.025,
+        0.9312422205626089
+      ],
+      [
+        0.05,
+        1.0
+      ],
+      [
+        0.075,
+        0.9372168284789644
+      ],
+      [
+        0.1,
+        0.8720687079910381
+      ]
+    ],
+    "per_direction": {
+      "on-top": [
+        9566,
+        9566
+      ],
+      "north": [
+        8575,
+        8575
+      ],
+      "south": [
+        5561,
+        5561
+      ],
+      "west": [
+        7351,
+        7351
+      ],
+      "east": [
+        9117,
+        9117
+      ]
+    },
+    "confusion": {
+      "on-top->on-top": 9566,
+      "north->north": 8575,
+      "south->south": 5561,
+      "west->west": 7351,
+      "east->east": 9117
+    }
+  },
+  "stage2_ambiguity": {
+    "v_summary": {
+      "n_queries": 6695,
+      "min": 0,
+      "p5": 4.0,
+      "p25": 20.0,
+      "median": 53.0,
+      "p75": 111.0,
+      "p95": 259.0,
+      "max": 1100,
+      "mean": 82.04809559372666,
+      "sd": 92.57282480632784,
+      "n_V0": 55,
+      "n_V1": 57,
+      "pct_V1": 0.8513816280806572,
+      "n_V_le_10": 972,
+      "pct_V_le_10": 14.51829723674384,
+      "n_V_le_50": 3233,
+      "pct_V_le_50": 48.28976848394324
+    },
+    "n_signatures": 5534,
+    "by_hint_count": [
+      {
+        "n_hints": 6,
+        "n_descriptions": 6695,
+        "median_V": 53.0,
+        "pct_unique": 0.8513816280806573
+      }
+    ]
+  },
+  "stage3_validity": {
+    "R": 0.7844660194174757,
+    "R_ci95": [
+      0.7696018660372064,
+      0.7991127304805689
+    ],
+    "naive_ceiling": 0.06414749717802315,
+    "recoverable_ceiling": 0.038369894413300715,
+    "overstatement": 1.6718184440921153
+  },
+  "stage4_metric_ceiling": {
+    "region_area_m2": {
+      "median": 648.0,
+      "mean": 1574.5941747572815,
+      "p25": 204.0,
+      "p75": 1620.0
+    },
+    "oracle_recall": [
+      {
+        "threshold_m": 5.0,
+        "oracle_recall": 0.08931406278243509,
+        "ci95": [
+          0.08270323591718634,
+          0.0961178738973794
+        ]
+      },
+      {
+        "threshold_m": 10.0,
+        "oracle_recall": 0.13115101639823767,
+        "ci95": [
+          0.12301546431207733,
+          0.13994463292089582
+        ]
+      },
+      {
+        "threshold_m": 15.0,
+        "oracle_recall": 0.1506115773773699,
+        "ci95": [
+          0.1418709147785387,
+          0.1601091952001034
+        ]
+      }
+    ],
+    "convergence": [
+      {
+        "grid": 8,
+        "oracle_recall": {
+          "5.0": 0.08778556066108183,
+          "10.0": 0.1293575671801124,
+          "15.0": 0.14787743920831473
+        }
+      },
+      {
+        "grid": 12,
+        "oracle_recall": {
+          "5.0": 0.08981020583844068,
+          "10.0": 0.13109570936309825,
+          "15.0": 0.15013582827318983
+        }
+      },
+      {
+        "grid": 16,
+        "oracle_recall": {
+          "5.0": 0.08931406278243509,
+          "10.0": 0.13115101639823767,
+          "15.0": 0.1506115773773699
+        }
+      },
+      {
+        "grid": 24,
+        "oracle_recall": {
+          "5.0": 0.09149779797612059,
+          "10.0": 0.13379399339233247,
+          "15.0": 0.15318341570266947
+        }
+      }
+    ]
+  }
+}

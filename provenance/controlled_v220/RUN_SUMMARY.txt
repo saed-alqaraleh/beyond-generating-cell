@@ -1,0 +1,16 @@
+ARTICLE EVIDENCE v2.2.0
+generated_utc: 2026-08-30T22:15:32Z
+core_hash: b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c
+executor_hash: e88fd71d6715be20b282d5527060d5c1bfdc1574f377aad0be38f2d16c52c098
+integrity: PASS
+
+kpose_2013_05_28_drive_0000_sync                 PASS
+kpose_color                                      PASS
+theta_45                                         PASS
+theta_22.5                                       PASS
+theta_10                                         PASS
+theta_90                                         PASS
+template_analysis_primary                        PASS
+multiscene_2013_05_28_drive_0002_sync            PASS
+multiscene_2013_05_28_drive_0003_sync            PASS
+multiscene_2013_05_28_drive_0004_sync            PASS

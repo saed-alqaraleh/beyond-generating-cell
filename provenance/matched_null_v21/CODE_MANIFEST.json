@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "version": "source_membership_matched_semantic_null_v2_1",
+  "scientific_corrections": [
+    "fixed proposal-transition Markov clock including rejected self-loops",
+    "legacy unconditional null made optional secondary evidence",
+    "ordinary bootstrap sign fraction no longer labeled a p-value",
+    "structural free-edge-overlap split-Rhat/ESS added",
+    "duplicate full-run notebook cell removed"
+  ],
+  "validation": {
+    "python_syntax": "PASS",
+    "synthetic_unit_tests": "PASS",
+    "unit_test_count": 9
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 4890,
+      "sha256": "25f1ee64d2c4fca90a4bf13e4dcece1abaa0b4b194381e83e3e2bcad34f6559a"
+    },
+    {
+      "path": "RUN_SOURCE_MEMBERSHIP_MATCHED_NULL_v2_1_FIXED.ipynb",
+      "size_bytes": 4095,
+      "sha256": "cb78b05dc7341caffc3be6e6cdfb1e6d0eac54abea6ff9cafe39365050ae1f32"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 364,
+      "sha256": "b372ac230612f36dab6499e5b8e495c2018173205730c954fb5cfc102b3aed89"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 52,
+      "sha256": "91bf700a3380ee2cc10ada901115ed9814fc56936494f52067f2e42496c0502a"
+    },
+    {
+      "path": "run_source_membership_matched_null_v2.py",
+      "size_bytes": 86,
+      "sha256": "ea5b47cbe18ce2e01c019155275b9017e51f4d7439e4e7a2653e7b162b85a29f"
+    },
+    {
+      "path": "source_matched_null/__init__.py",
+      "size_bytes": 60,
+      "sha256": "2b857bb5137a57a247ab4d93b71068e148f50590566cc257320bb13a570b4fde"
+    },
+    {
+      "path": "source_matched_null/analysis.py",
+      "size_bytes": 49473,
+      "sha256": "ff04f6178c3d9e04d728de613b7ee09c7eaefd6f128d83424ae7c4e90b366dbb"
+    },
+    {
+      "path": "source_matched_null/core.py",
+      "size_bytes": 57913,
+      "sha256": "be792fba22b061ccdf8bf7620d6a152a6ef337bc4f77b5d2c3303d7c548f2f83"
+    },
+    {
+      "path": "source_matched_null/figures.py",
+      "size_bytes": 669,
+      "sha256": "3ae037ad5aa3d6762657970e4852dc6189201323c306f43f06d46ca751716ccb"
+    },
+    {
+      "path": "source_matched_null/tests.py",
+      "size_bytes": 7985,
+      "sha256": "af05768792e652841d40165e3e94e75ba4add8a34c66148427901a280e108980"
+    }
+  ]
+}

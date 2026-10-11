@@ -1,0 +1,32 @@
+{
+  "job": "kpose_2013_05_28_drive_0000_sync",
+  "returncode": 0,
+  "status": "success",
+  "ok": true,
+  "completed": true,
+  "signature": "7909bf9796c508d60c3a8f5f3b55d984169e7cf8957a8cad7c50ec23cd84f7a1",
+  "version": "2.2.0",
+  "code_hash": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "kpose_diagnostics.cli.run_kpose_full",
+    "--cells",
+    "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl",
+    "--poses",
+    "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/poses/2013_05_28_drive_0000_sync.pkl",
+    "--scene",
+    "2013_05_28_drive_0000_sync",
+    "--out-dir",
+    "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/kpose_2013_05_28_drive_0000_sync",
+    "--grid-sweep",
+    "8,12,16,24",
+    "--cache-dir",
+    "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared"
+  ],
+  "elapsed_s": 2840.6,
+  "log": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/logs/kpose_2013_05_28_drive_0000_sync.log",
+  "result": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/kpose_2013_05_28_drive_0000_sync/kpose_full_results.json",
+  "finished_utc": "2026-08-30T18:22:58Z"
+}

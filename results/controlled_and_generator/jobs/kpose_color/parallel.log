@@ -1,0 +1,88 @@
+COMMAND: /usr/bin/python3 -u -m kpose_diagnostics.cli.run_kpose_full --cells /content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl --poses /content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/poses/2013_05_28_drive_0000_sync.pkl --scene 2013_05_28_drive_0000_sync --use-color --grid-sweep  --out-dir /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/kpose_color --cache-dir /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared
+
+[    0.0s] ========================================================================
+[    0.0s] KITTI360Pose -- verification, ambiguity, validity, metric ceiling
+[    0.0s] ========================================================================
+[    0.0s] scene       : 2013_05_28_drive_0000_sync
+[    0.0s] grid        : 16x16 per 30.0 m cell
+[    0.0s] environment : {'python': '3.13.15', 'platform': 'Linux-6.6.122+-x86_64-with-glibc2.35', 'numpy': '2.1.3', 'utc': '2026-08-30T17:36:01Z'}
+[    0.0s] 
+[    0.7s] scene cache is being built by another runtime; waiting for scene_2013_05_28_drive_0000_sync_fc297fe6ce984f734db6.pkl
+[   32.6s] scene cache became available: /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared/scene_2013_05_28_drive_0000_sync_fc297fe6ce984f734db6.pkl
+[   33.9s] cells 2,466, objects 38,094
+[   33.9s] fields: label=object_label direction=direction color=object_color_text offset=offset_closest cell=cell_id
+[   34.0s] 
+[   34.0s] ------------------------------------------------------------------------
+[   34.0s] STAGE 1 -- does the implemented rule reproduce the generator?
+[   34.0s] ------------------------------------------------------------------------
+[   34.2s]     hint records: 40,170
+[   34.2s]     agreement vs normalized proximity threshold delta:
+[   36.3s]         delta =  0.015 normalized   agreement = 0.8965
+[   36.3s]         delta =  0.025 normalized   agreement = 0.9312
+[   36.3s]         delta =   0.05 normalized   agreement = 1.0000  <-- selected
+[   36.3s]         delta =  0.075 normalized   agreement = 0.9372
+[   36.3s]         delta =    0.1 normalized   agreement = 0.8721
+[   36.7s] 
+[   36.7s]     compared      : 40,170 hints
+[   36.7s]     agreement     : 1.0000   (FAITHFUL)
+[   36.7s]     delta         : 0.05 normalised-cell units
+[   36.7s]     per stored direction:
+[   36.7s]         on-top     9,566/9,566    (1.0000)
+[   36.7s]         east       9,117/9,117    (1.0000)
+[   36.7s]         west       7,351/7,351    (1.0000)
+[   36.7s]         north      8,575/8,575    (1.0000)
+[   36.7s]         south      5,561/5,561    (1.0000)
+[   36.7s] 
+[   36.7s]     GATE PASSED -- downstream numbers describe the benchmark.
+[   36.7s] 
+[   36.7s] building position index at 16x16 per cell
+[  113.7s]         indexed 250/2466 cells
+[  191.2s]         indexed 500/2466 cells
+[  267.5s]         indexed 750/2466 cells
+[  334.9s]         indexed 1000/2466 cells
+[  408.3s]         indexed 1250/2466 cells
+[  485.9s]         indexed 1500/2466 cells
+[  562.2s]         indexed 1750/2466 cells
+[  639.4s]         indexed 2000/2466 cells
+[  723.6s]         indexed 2250/2466 cells
+[  796.1s]     grid-index checkpoint saved: /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared/indexes/index_g16_bcd341b8bc0e7326d85b.pkl
+[  796.1s]     564 atomic keys, 631,296 slots, spacing 2.00 m
+[  796.1s] 
+[  796.1s] ------------------------------------------------------------------------
+[  796.1s] STAGES 2-4 -- ambiguity, validity, metric ceiling
+[  796.1s] ------------------------------------------------------------------------
+[  797.5s]         1,000 descriptions processed
+[  799.0s]         2,000 descriptions processed
+[  800.6s]         3,000 descriptions processed
+[  802.1s]         4,000 descriptions processed
+[  803.8s]         5,000 descriptions processed
+[  806.1s]         6,000 descriptions processed
+[  808.6s] 
+[  808.6s]   STAGE 2 -- cell-level ambiguity
+[  808.6s]     descriptions           : 6,695
+[  808.6s]     distinct signatures    : 6,285
+[  808.6s]     hints per description  : mean 6.00, range 6-6
+[  808.6s]     median V               : 1.0     (template family: 758)
+[  808.6s]     mean V (SD)            : 1.8 (3.2)
+[  808.6s]     uniquely identifying   : 1,675 (25.019%)   (template family: 0.0085%)
+[  808.6s]     V <= 10                : 6,603 (98.63%)
+[  808.6s]     V = 0                  : 2,319
+[  808.6s] 
+[  808.6s]   STAGE 3 -- generating-cell validity
+[  808.6s]     R                      : 0.4615  [0.4425, 0.4811]
+[  808.6s]     naive ceiling E[1/V]   : 0.74104
+[  808.6s]     recoverable ceiling    : 0.25850
+[  808.6s]     overstatement factor   : 2.87x
+[  808.6s] 
+[  808.6s]   STAGE 4 -- metric ceiling for recall@k
+[  808.7s]     consistent region area : median 12 m^2, mean 40 m^2
+[  809.3s]     oracle recall@   5 m    : 0.3759  [0.3617, 0.3896]
+[  810.0s]     oracle recall@  10 m    : 0.5071  [0.4910, 0.5227]
+[  810.7s]     oracle recall@  15 m    : 0.5535  [0.5370, 0.5699]
+[  810.7s] 
+[  810.7s]     This is the recall a method would achieve if it identified the
+[  810.7s]     described region exactly and then picked uniformly within it.
+[  810.7s]     It is fixed by the descriptions and the map before training.
+[  810.8s] 
+[  810.8s] wrote /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/kpose_color/kpose_full_results.json
+[  810.8s] DONE.

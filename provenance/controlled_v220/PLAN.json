@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "executor_version": "1.0.0",
+  "created_utc": "2026-08-30T22:11:29Z",
+  "base": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all",
+  "out": "/content/drive/MyDrive/or_fusion_verification/article_evidence_v220",
+  "existing": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired",
+  "core_root": "/content/article_core_v220/kpose_diagnostics_v2.2.0_repaired",
+  "core_hash": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+  "executor_hash": "e88fd71d6715be20b282d5527060d5c1bfdc1574f377aad0be38f2d16c52c098",
+  "input_fingerprint": {
+    "cells": {
+      "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells",
+      "n_files": 4,
+      "size_bytes": 7773746705,
+      "sha256": "28ae56bbff5cc0fde8e0549c3820a2908c049a9ec402f22b83ebb61bb3bdf503",
+      "method": "sha256-content-tree-v1"
+    },
+    "poses": {
+      "path": "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/poses",
+      "n_files": 1,
+      "size_bytes": 13692519,
+      "sha256": "141c5402bd261d2c1352804f838075dcc12ea795619b3a77f605751334988f41",
+      "method": "sha256-content-tree-v1"
+    }
+  },
+  "expected_reusable_jobs": [
+    "kpose_2013_05_28_drive_0000_sync",
+    "kpose_color",
+    "theta_45",
+    "theta_22.5",
+    "theta_10"
+  ],
+  "reuse_verification": {
+    "kpose_2013_05_28_drive_0000_sync": {
+      "job": "kpose_2013_05_28_drive_0000_sync",
+      "verified": true,
+      "checks": [
+        {
+          "check": "manifest_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "merged_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "manifest_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "merged_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_job_present",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_success",
+          "pass": true,
+          "detail": "success"
+        },
+        {
+          "check": "done_marker_version",
+          "pass": true,
+          "detail": "2.2.0"
+        },
+        {
+          "check": "done_marker_core_hash",
+          "pass": true,
+          "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        },
+        {
+          "check": "manifest_hash:_JOB_DONE.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:kpose_full_results.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:per_description.npz",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:run.log",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "result_json_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_result_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_status_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "generator_agreement_1.0",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "generator_gate_passed",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "scientifically_valid",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "result_core_hash",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+    },
+    "kpose_color": {
+      "job": "kpose_color",
+      "verified": true,
+      "checks": [
+        {
+          "check": "manifest_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "merged_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "manifest_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "merged_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_job_present",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_success",
+          "pass": true,
+          "detail": "success"
+        },
+        {
+          "check": "done_marker_version",
+          "pass": true,
+          "detail": "2.2.0"
+        },
+        {
+          "check": "done_marker_core_hash",
+          "pass": true,
+          "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        },
+        {
+          "check": "manifest_hash:_JOB_DONE.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:kpose_full_results.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:per_description.npz",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:run.log",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "result_json_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_result_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_status_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "generator_agreement_1.0",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "generator_gate_passed",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "scientifically_valid",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "result_core_hash",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+    },
+    "theta_45": {
+      "job": "theta_45",
+      "verified": true,
+      "checks": [
+        {
+          "check": "manifest_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "merged_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "manifest_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "merged_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_job_present",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_success",
+          "pass": true,
+          "detail": "success"
+        },
+        {
+          "check": "done_marker_version",
+          "pass": true,
+          "detail": "2.2.0"
+        },
+        {
+          "check": "done_marker_core_hash",
+          "pass": true,
+          "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        },
+        {
+          "check": "manifest_hash:_JOB_DONE.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:gt_validity_results.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:per_query.npz",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:strata.csv",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:template_v.csv",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:run.log",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "result_json_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_result_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_status_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "theta_measurement_success",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "theta_reference_not_borrowed",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+    },
+    "theta_22.5": {
+      "job": "theta_22.5",
+      "verified": true,
+      "checks": [
+        {
+          "check": "manifest_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "merged_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "manifest_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "merged_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_job_present",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_success",
+          "pass": true,
+          "detail": "success"
+        },
+        {
+          "check": "done_marker_version",
+          "pass": true,
+          "detail": "2.2.0"
+        },
+        {
+          "check": "done_marker_core_hash",
+          "pass": true,
+          "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        },
+        {
+          "check": "manifest_hash:_JOB_DONE.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:gt_validity_results.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:per_query.npz",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:strata.csv",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:template_v.csv",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:run.log",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "result_json_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_result_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_status_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "theta_measurement_success",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "theta_reference_not_borrowed",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+    },
+    "theta_10": {
+      "job": "theta_10",
+      "verified": true,
+      "checks": [
+        {
+          "check": "manifest_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "merged_core_hash",
+          "pass": true,
+          "detail": {
+            "got": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+            "expected": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+          }
+        },
+        {
+          "check": "manifest_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "merged_input_fingerprint",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_job_present",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "done_marker_success",
+          "pass": true,
+          "detail": "success"
+        },
+        {
+          "check": "done_marker_version",
+          "pass": true,
+          "detail": "2.2.0"
+        },
+        {
+          "check": "done_marker_core_hash",
+          "pass": true,
+          "detail": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c"
+        },
+        {
+          "check": "manifest_hash:_JOB_DONE.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:gt_validity_results.json",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:per_query.npz",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:strata.csv",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:template_v.csv",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "manifest_hash:run.log",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "result_json_readable",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_result_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "embedded_status_exact",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "theta_measurement_success",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "check": "theta_reference_not_borrowed",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "source": "/content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired"
+    }
+  },
+  "rerun_reusable_jobs": [],
+  "tracks": {
+    "0": [
+      {
+        "jid": "template_analysis_primary",
+        "kind": "custom",
+        "module": "article_evidence.template_analysis",
+        "result_file": "template_analysis_results.json",
+        "cost": 12.0,
+        "args": [
+          "--cells",
+          "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl",
+          "--scene",
+          "2013_05_28_drive_0000_sync"
+        ]
+      },
+      {
+        "jid": "theta_90",
+        "kind": "core",
+        "module": "kpose_diagnostics.cli.run_gt_validity",
+        "result_file": "gt_validity_results.json",
+        "cost": 3.0,
+        "args": [
+          "--cells",
+          "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0000_sync.pkl",
+          "--scene",
+          "2013_05_28_drive_0000_sync",
+          "--theta",
+          "90",
+          "--reference-mode",
+          "off"
+        ]
+      }
+    ],
+    "1": [
+      {
+        "jid": "multiscene_2013_05_28_drive_0002_sync",
+        "kind": "core",
+        "module": "kpose_diagnostics.cli.run_gt_validity",
+        "result_file": "gt_validity_results.json",
+        "cost": 3.0,
+        "args": [
+          "--cells",
+          "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0002_sync.pkl",
+          "--scene",
+          "2013_05_28_drive_0002_sync",
+          "--theta",
+          "90",
+          "--reference-mode",
+          "off"
+        ]
+      },
+      {
+        "jid": "multiscene_2013_05_28_drive_0003_sync",
+        "kind": "core",
+        "module": "kpose_diagnostics.cli.run_gt_validity",
+        "result_file": "gt_validity_results.json",
+        "cost": 3.0,
+        "args": [
+          "--cells",
+          "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0003_sync.pkl",
+          "--scene",
+          "2013_05_28_drive_0003_sync",
+          "--theta",
+          "90",
+          "--reference-mode",
+          "off"
+        ]
+      },
+      {
+        "jid": "multiscene_2013_05_28_drive_0004_sync",
+        "kind": "core",
+        "module": "kpose_diagnostics.cli.run_gt_validity",
+        "result_file": "gt_validity_results.json",
+        "cost": 3.0,
+        "args": [
+          "--cells",
+          "/content/drive/MyDrive/or_fusion_verification/data/k360_30-10_scG_pd10_pc4_spY_all/cells/2013_05_28_drive_0004_sync.pkl",
+          "--scene",
+          "2013_05_28_drive_0004_sync",
+          "--theta",
+          "90",
+          "--reference-mode",
+          "off"
+        ]
+      }
+    ]
+  },
+  "track_costs": {
+    "0": 15.0,
+    "1": 9.0
+  },
+  "science_rules": {
+    "theta_reference_mode": "off for all sweep points; theta90 reference checked later as integrity evidence",
+    "skip_gate_allowed": false,
+    "alpha_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      0.98,
+      0.99,
+      1.0
+    ],
+    "bootstrap_unit": "source_cell",
+    "bootstrap_B": 2000,
+    "permutation_B": 10000,
+    "tie_rule": "stable-first"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "archive_name": "article_evidence_v220_runner_ORIGINAL.zip",
+  "sha256": "318ed27e530c87f10794e029875f1249dd0216700aed1d411b5370e3568805b0",
+  "historical_source_date": "2026-08-30",
+  "expected_core_tree_hash": "b6519535a7778530ee4ddc30ede8ef9659d76fa0dbe072f22de28c3c407f0a2c",
+  "expected_executor_tree_hash": "e88fd71d6715be20b282d5527060d5c1bfdc1574f377aad0be38f2d16c52c098",
+  "expected_embedded_core_zip_sha256": "6c4a12093678659f578c8ab091a35f22a709ff40261f2fef1d8784bc1b42b6c7",
+  "purpose": "Validated original source bundle and directory layout for reproducible prepared-data execution."
+}

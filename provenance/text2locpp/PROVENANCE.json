@@ -1,0 +1,44 @@
+{
+  "prepared_inputs": "/content/drive/MyDrive/or_fusion_verification/heldout_identifiability_v1/SOURCE_MEMBERSHIP_MATCHED_SEMANTIC_NULL_CONTROL_FINAL_v2_1/PREPARED_PRIMARY_INPUTS.npz",
+  "prepared_inputs_sha256": "2f05a81a546bb20c01adf51ad225761eb3275021c9918a505e359b4f3fca45b9",
+  "frozen_core_py": "/content/drive/MyDrive/or_fusion_verification/heldout_identifiability_v1/SOURCE_MEMBERSHIP_MATCHED_SEMANTIC_NULL_CONTROL_FINAL_v2_1/code/source_matched_null/core.py",
+  "frozen_core_py_sha256": "be792fba22b061ccdf8bf7620d6a152a6ef337bc4f77b5d2c3303d7c548f2f83",
+  "old_primary_table": "/content/drive/MyDrive/or_fusion_verification/heldout_identifiability_v1/SOURCE_MEMBERSHIP_MATCHED_SEMANTIC_NULL_CONTROL_FINAL_v2_1/TABLE_source_membership_matched_null_primary.csv",
+  "old_primary_table_sha256": "1d9af737955322b59876774feeecbb61218de3d67cde4c362f2c11613cf37f4d",
+  "old_query_null_probabilities": "/content/drive/MyDrive/or_fusion_verification/heldout_identifiability_v1/SOURCE_MEMBERSHIP_MATCHED_SEMANTIC_NULL_CONTROL_FINAL_v2_1/QUERY_LEVEL_NULL_PROBABILITIES.parquet",
+  "old_query_null_probabilities_sha256": "b23a991e939215330b494e6cbf342821f3fcc1973f62489228675b9d6365c306",
+  "text2locpp_per_query_audit": "/content/drive/MyDrive/or_fusion_verification/text2locpp_modern_baseline_v1/stageB_coarse_inference/scientific_analysis_v1/TEXT2LOCPP_PER_QUERY_SEMANTIC_AUDIT.parquet",
+  "text2locpp_per_query_audit_sha256": "09b1fbc5a05ac39b32e6e8cc757a615413a1007ec485ad716a9f1b59edabcbfb",
+  "chain_captures": [
+    {
+      "chain_id": 0,
+      "status": "PASS",
+      "retained_states": 250,
+      "exact_original_array_reproduction": true,
+      "capture_sha256": "785d9ce60eacb2ec689adad55d6b56b31e05655cca486426f3b7949d3b05a5ac"
+    },
+    {
+      "chain_id": 1,
+      "status": "PASS",
+      "retained_states": 250,
+      "exact_original_array_reproduction": true,
+      "capture_sha256": "94ca39f07520ad850aed1a66dbe4377624fe0a6773938ab0699bdb2e60f9ff09"
+    },
+    {
+      "chain_id": 2,
+      "status": "PASS",
+      "retained_states": 250,
+      "exact_original_array_reproduction": true,
+      "capture_sha256": "4a8ef7ad95afa9a1d5e03936053a23568564eda556a8e4c33b02f62225ec6fdb"
+    },
+    {
+      "chain_id": 3,
+      "status": "PASS",
+      "retained_states": 250,
+      "exact_original_array_reproduction": true,
+      "capture_sha256": "f7dc2eaa24711f19fec86e5e396b112262f4538b0ccc9bf4932b74557239fe3f"
+    }
+  ],
+  "bootstrap_seed": 20260901,
+  "bootstrap_replicates": 10000
+}

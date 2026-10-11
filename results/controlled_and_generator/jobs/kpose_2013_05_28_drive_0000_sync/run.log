@@ -1,0 +1,121 @@
+[    0.0s] ========================================================================
+[    0.0s] KITTI360Pose -- verification, ambiguity, validity, metric ceiling
+[    0.0s] ========================================================================
+[    0.0s] scene       : 2013_05_28_drive_0000_sync
+[    0.0s] grid        : 16x16 per 30.0 m cell
+[    0.0s] environment : {'python': '3.13.15', 'platform': 'Linux-6.6.122+-x86_64-with-glibc2.35', 'numpy': '2.1.3', 'utc': '2026-08-30T17:35:38Z'}
+[    0.0s] 
+[   20.3s] scene cached: /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared/scene_2013_05_28_drive_0000_sync_fc297fe6ce984f734db6.pkl
+[   20.8s] cells 2,466, objects 38,094
+[   20.8s] fields: label=object_label direction=direction color=object_color_text offset=offset_closest cell=cell_id
+[   20.8s] 
+[   20.8s] ------------------------------------------------------------------------
+[   20.8s] STAGE 1 -- does the implemented rule reproduce the generator?
+[   20.8s] ------------------------------------------------------------------------
+[   21.0s]     hint records: 40,170
+[   21.0s]     agreement vs normalized proximity threshold delta:
+[   22.3s]         delta =  0.015 normalized   agreement = 0.8965
+[   22.3s]         delta =  0.025 normalized   agreement = 0.9312
+[   22.3s]         delta =   0.05 normalized   agreement = 1.0000  <-- selected
+[   22.3s]         delta =  0.075 normalized   agreement = 0.9372
+[   22.3s]         delta =    0.1 normalized   agreement = 0.8721
+[   22.6s] 
+[   22.6s]     compared      : 40,170 hints
+[   22.6s]     agreement     : 1.0000   (FAITHFUL)
+[   22.6s]     delta         : 0.05 normalised-cell units
+[   22.6s]     per stored direction:
+[   22.6s]         on-top     9,566/9,566    (1.0000)
+[   22.6s]         east       9,117/9,117    (1.0000)
+[   22.6s]         west       7,351/7,351    (1.0000)
+[   22.6s]         north      8,575/8,575    (1.0000)
+[   22.6s]         south      5,561/5,561    (1.0000)
+[   22.6s] 
+[   22.6s]     GATE PASSED -- downstream numbers describe the benchmark.
+[   22.6s] 
+[   22.6s] building position index at 16x16 per cell
+[   93.4s]         indexed 250/2466 cells
+[  164.2s]         indexed 500/2466 cells
+[  233.3s]         indexed 750/2466 cells
+[  295.3s]         indexed 1000/2466 cells
+[  360.9s]         indexed 1250/2466 cells
+[  430.3s]         indexed 1500/2466 cells
+[  501.5s]         indexed 1750/2466 cells
+[  570.9s]         indexed 2000/2466 cells
+[  644.7s]         indexed 2250/2466 cells
+[  709.1s]     grid-index checkpoint saved: /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared/indexes/index_g16_a42629f16b23361193fb.pkl
+[  709.1s]     90 atomic keys, 631,296 slots, spacing 2.00 m
+[  709.1s] 
+[  709.1s] ------------------------------------------------------------------------
+[  709.1s] STAGES 2-4 -- ambiguity, validity, metric ceiling
+[  709.1s] ------------------------------------------------------------------------
+[  711.1s]         1,000 descriptions processed
+[  712.9s]         2,000 descriptions processed
+[  714.7s]         3,000 descriptions processed
+[  716.9s]         4,000 descriptions processed
+[  718.9s]         5,000 descriptions processed
+[  721.7s]         6,000 descriptions processed
+[  723.5s] 
+[  723.5s]   STAGE 2 -- cell-level ambiguity
+[  723.5s]     descriptions           : 6,695
+[  723.5s]     distinct signatures    : 5,534
+[  723.5s]     hints per description  : mean 6.00, range 6-6
+[  723.5s]     median V               : 53.0     (template family: 758)
+[  723.5s]     mean V (SD)            : 82.0 (92.6)
+[  723.5s]     uniquely identifying   : 57 (0.851%)   (template family: 0.0085%)
+[  723.5s]     V <= 10                : 972 (14.52%)
+[  723.5s]     V = 0                  : 55
+[  723.5s] 
+[  723.5s]   STAGE 3 -- generating-cell validity
+[  723.5s]     R                      : 0.7845  [0.7696, 0.7991]
+[  723.5s]     naive ceiling E[1/V]   : 0.06415
+[  723.5s]     recoverable ceiling    : 0.03837
+[  723.5s]     overstatement factor   : 1.67x
+[  723.5s] 
+[  723.5s]   STAGE 4 -- metric ceiling for recall@k
+[  723.5s]     consistent region area : median 648 m^2, mean 1,575 m^2
+[  724.0s]     oracle recall@   5 m    : 0.0893  [0.0827, 0.0961]
+[  724.4s]     oracle recall@  10 m    : 0.1312  [0.1230, 0.1399]
+[  724.9s]     oracle recall@  15 m    : 0.1506  [0.1419, 0.1601]
+[  724.9s] 
+[  724.9s]     This is the recall a method would achieve if it identified the
+[  724.9s]     described region exactly and then picked uniformly within it.
+[  724.9s]     It is fixed by the descriptions and the map before training.
+[  724.9s] 
+[  724.9s]   Stage 4 convergence in grid resolution
+[  742.7s]         indexed 250/2466 cells
+[  761.2s]         indexed 500/2466 cells
+[  779.2s]         indexed 750/2466 cells
+[  796.0s]         indexed 1000/2466 cells
+[  813.3s]         indexed 1250/2466 cells
+[  831.6s]         indexed 1500/2466 cells
+[  849.7s]         indexed 1750/2466 cells
+[  868.5s]         indexed 2000/2466 cells
+[  888.0s]         indexed 2250/2466 cells
+[  905.4s]     grid-index checkpoint saved: /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared/indexes/index_g8_c8a93e2f6c1b81ab9b14.pkl
+[  907.7s]     grid   8: @5m=0.0878  @10m=0.1294  @15m=0.1479
+[  946.0s]         indexed 250/2466 cells
+[  984.9s]         indexed 500/2466 cells
+[ 1023.5s]         indexed 750/2466 cells
+[ 1058.4s]         indexed 1000/2466 cells
+[ 1097.4s]         indexed 1250/2466 cells
+[ 1136.2s]         indexed 1500/2466 cells
+[ 1175.4s]         indexed 1750/2466 cells
+[ 1214.9s]         indexed 2000/2466 cells
+[ 1256.5s]         indexed 2250/2466 cells
+[ 1292.8s]     grid-index checkpoint saved: /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared/indexes/index_g12_0334e7c8ecae3df1bb50.pkl
+[ 1299.0s]     grid  12: @5m=0.0898  @10m=0.1311  @15m=0.1501
+[ 1299.0s]     grid  16: @5m=0.0893  @10m=0.1312  @15m=0.1506
+[ 1450.5s]         indexed 250/2466 cells
+[ 1606.1s]         indexed 500/2466 cells
+[ 1760.5s]         indexed 750/2466 cells
+[ 1898.6s]         indexed 1000/2466 cells
+[ 2046.5s]         indexed 1250/2466 cells
+[ 2202.4s]         indexed 1500/2466 cells
+[ 2357.0s]         indexed 1750/2466 cells
+[ 2512.4s]         indexed 2000/2466 cells
+[ 2677.1s]         indexed 2250/2466 cells
+[ 2820.2s]     grid-index checkpoint saved: /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/cache/kpose_shared/indexes/index_g24_066e49e07256cf024391.pkl
+[ 2840.1s]     grid  24: @5m=0.0915  @10m=0.1338  @15m=0.1532
+[ 2840.2s] 
+[ 2840.2s] wrote /content/drive/MyDrive/or_fusion_verification/results_kpose_v220_repaired/kpose_2013_05_28_drive_0000_sync/kpose_full_results.json
+[ 2840.2s] DONE.
