@@ -1,0 +1,13 @@
+{
+  "version": "source_membership_matched_semantic_null_v2_1",
+  "base_seed": 20260905,
+  "bootstrap_seed": 20260901,
+  "chains": 4,
+  "retained_per_chain": 250,
+  "burn_edge_multiples": 160,
+  "thin_edge_multiples": 16,
+  "checkpoint_every": 5,
+  "bootstrap_reps": 10000,
+  "rhat_max": 1.1,
+  "transition_clock": "fixed_proposals_including_rejected_self_loops"
+}
